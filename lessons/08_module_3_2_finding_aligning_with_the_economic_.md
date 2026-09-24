@@ -24,7 +24,7 @@ Rookies bypass their champion and get blocked. Elite AEs partner with the champi
 
           
 
-            "Sarah, you and I both know Maptician will solve your seating chaos, but Dave (CFO) is going to evaluate this purely through capital allocation and real estate liability. In our experience, CFOs kill projects at the 11th hour if they haven't seen the financial model early. If we build a 1-page business case showing $300k lease savings, would you want to co-present that with me to Dave so you look like a rockstar to executive leadership?"
+            "Sarah, you and I both know [Your Product] will solve your seating chaos, but Dave (CFO) is going to evaluate this purely through capital allocation and real estate liability. In our experience, CFOs kill projects at the 11th hour if they haven't seen the financial model early. If we build a 1-page business case showing $300k lease savings, would you want to co-present that with me to Dave so you look like a rockstar to executive leadership?"
           
 
         

@@ -421,7 +421,7 @@ function copyJoltScript() {
 ======================================================== */
 const defaultMapMilestones = [
   { phase: "Discovery", item: "Operational Diagnostic & Floorplan Audit", owner: "Joint Team", date: "Day 1-7", status: "Completed" },
-  { phase: "Solution Alignment", item: "Executive Architecture & Impact Demo", owner: "Maptician AE", date: "Day 10", status: "Completed" },
+  { phase: "Solution Alignment", item: "Executive Architecture & Impact Demo", owner: "AE", date: "Day 10", status: "Completed" },
   { phase: "Technical Validation", item: "SSO, Security & SOC2 Review Questionnaire", owner: "Prospect InfoSec", date: "Day 18", status: "In Progress" },
   { phase: "Commercial Alignment", item: "CFO Business Case & ROI Model Review", owner: "Champion + AE", date: "Day 24", status: "Scheduled" },
   { phase: "Contract Execution", item: "Order Form & MSA Redline Sign-Off", owner: "Legal / Procurement", date: "Day 32", status: "Pending" },
@@ -685,7 +685,7 @@ function showExamResults() {
 
             <div class="text-center my-8">
               <p class="text-[11px] font-mono text-[#6B6964] uppercase tracking-widest">This executive credential certifies that</p>
-              <h4 class="text-2xl sm:text-3xl font-serif font-medium text-[#141413] my-2">Lance (Maptician Enterprise BDR)</h4>
+              <h4 class="text-2xl sm:text-3xl font-serif font-medium text-[#141413] my-2">[Your Name] (Enterprise BDR)</h4>
               <p class="text-xs text-[#3D3D3A] max-w-lg mx-auto leading-relaxed mt-3">
                 Has demonstrated rigorous operational mastery in Keenan's GAP Selling root-cause diagnostics, John McMahon's MEDDPICC qualification architecture, Peter Cohan's Great Demo! choreography, and Matt Dixon's JOLT Effect closing mechanics.
               </p>

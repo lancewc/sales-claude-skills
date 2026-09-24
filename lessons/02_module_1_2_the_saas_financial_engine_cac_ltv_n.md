@@ -53,7 +53,7 @@ When a company is struggling with poor unit economics or high burn, their Board 
             * **Slash SG&A (Selling, General, and Administrative) expenses**—where Corporate Real Estate is often the 2nd largest line item behind payroll.
           
 
-          ### Your positioning: Maptician isn't an arbitrary software purchase; it is the SG&A reduction weapon that lets them cut millions in fixed overhead without firing talent.
+          ### Your positioning: [Your Product] isn't an arbitrary software purchase; it is the SG&A reduction weapon that lets them cut millions in fixed overhead without firing talent.
 
 ---
 

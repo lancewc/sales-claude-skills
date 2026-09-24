@@ -21,7 +21,7 @@ When you are a BDR, you pitch convenience: *"Our software makes desk booking eas
 
             * <strong class="text-slate-200">CapEx (Capital Expenditures):</strong> Major long-term physical assets (buying office buildings, heavy hardware, massive proprietary server infrastructure). Paid upfront, depreciated over 5–10 years on the balance sheet.
             * <strong class="text-slate-200">OpEx (Operating Expenses):</strong> Ongoing operational costs (cloud software subscriptions, monthly lease payments, utilities). Fully tax-deductible in the year they are spent.
-            * <strong class="text-slate-200">The AE Advantage:</strong> Maptician is an **OpEx investment that directly cannibalizes a bloated OpEx liability (Real Estate Leases)**. You are not asking for 'new money'; you are reallocating a fraction of a 2-million-dollar lease bleed into high-efficiency software.
+            * <strong class="text-slate-200">The AE Advantage:</strong> [Your Product] is an **OpEx investment that directly cannibalizes a bloated OpEx liability (Real Estate Leases)**. You are not asking for 'new money'; you are reallocating a fraction of a 2-million-dollar lease bleed into high-efficiency software.
           
 
         
@@ -31,7 +31,7 @@ When you are a BDR, you pitch convenience: *"Our software makes desk booking eas
           #### 2. The EBITDA Metric Every VP of Sales Forgets
 
           
-**EBITDA** = Earnings Before Interest, Taxes, Depreciation, and Amortization. In PE-backed and public firms, enterprise valuation is typically a multiple of EBITDA (e.g., 10x–20x EBITDA). If Maptician helps a 500-person enterprise downsize 15,000 sq ft, saving **\$600,000/year** in lease liability:
+**EBITDA** = Earnings Before Interest, Taxes, Depreciation, and Amortization. In PE-backed and public firms, enterprise valuation is typically a multiple of EBITDA (e.g., 10x–20x EBITDA). If [Your Product] helps a 500-person enterprise downsize 15,000 sq ft, saving **\$600,000/year** in lease liability:
 
           
 

@@ -68,7 +68,7 @@ Never give a concession without getting an equivalent trade in return:
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "Script your response to a procurement agent who says 'We have approved Maptician, but our policy requires a mandatory 15% discount across all new software vendors.'"
+> "Script your response to a procurement agent who says 'We have approved [Your Product], but our policy requires a mandatory 15% discount across all new software vendors.'"
 
 ---
 

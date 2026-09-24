@@ -79,7 +79,7 @@ Corporate buyers are human beings motivated by fear, vanity, exhaustion, and car
 
 ## CHAPTER 3: THE PROBLEM-IMPACT-ROOT CAUSE (PIC) MATRIX
 
-Before every discovery call, an elite AE constructs a **PIC Matrix** for their target persona. Here is the master PIC Matrix for Maptician when selling to a **VP of Corporate Real Estate & Facilities**:
+Before every discovery call, an elite AE constructs a **PIC Matrix** for their target persona. Here is the master PIC Matrix for [Your Product] when selling to a **VP of Corporate Real Estate & Facilities**:
 
 | Technical Problem | Quantified Business Impact | Root Cause |
 | :--- | :--- | :--- |
@@ -118,19 +118,19 @@ If you accept that first answer and start pitching, you have lost. You must use 
 ---
 
 ## CHAPTER 5: FULL-LENGTH DISCOVERY TRANSCRIPT ANALYSIS
-### *Rookie BDR vs. Master Enterprise AE at Maptician*
+### *Rookie BDR vs. Master Enterprise AE at [Your Product]*
 
 **Prospect:** Marcus Vance, VP of Workplace & Real Estate  
 **Company:** Apex Global (750 employees, 3 regional offices: Chicago, Austin, NYC)  
-**Context:** Inbound lead checking out Maptician's website for "desk booking."
+**Context:** Inbound lead checking out [Your Product]'s website for "desk booking."
 
 ---
 
 ### SCENARIO A: The Rookie BDR (The Order-Taker)
 
-> **Rookie:** "Hey Marcus! Thanks for hopping on. I saw you requested info on Maptician. To start off, what features were you looking for in a desk booking tool?"  
+> **Rookie:** "Hey Marcus! Thanks for hopping on. I saw you requested info on [Your Product]. To start off, what features were you looking for in a desk booking tool?"  
 > **Marcus:** "Well, we're doing a 3-day hybrid policy in Chicago and Austin, and people are complaining that they can't find desks near their teammates. So we need a simple desk booking app with interactive maps."  
-> **Rookie:** "Awesome! Maptician has the best interactive maps in the market. You can upload CAD files, color-code by department, and employees can book from their iPhone or via Slack. We also have QR code check-in. Would you like to see a demo of how the maps work?"  
+> **Rookie:** "Awesome! [Your Product] has the best interactive maps in the market. You can upload CAD files, color-code by department, and employees can book from their iPhone or via Slack. We also have QR code check-in. Would you like to see a demo of how the maps work?"  
 > **Marcus:** "Yeah, sure, sounds good."  
 > *(Rookie spends 25 minutes clicking through the software. Marcus nods politely.)*  
 > **Rookie:** "So what do you think? Pretty cool right?"  
@@ -141,7 +141,7 @@ If you accept that first answer and start pitching, you have lost. You must use 
 * Did the rookie uncover the size of the offices? No.
 * Did the rookie uncover what this seating chaos was costing the company? No.
 * Did the rookie uncover who owns the budget? No.
-* The rookie positioned Maptician as a commodity smartphone app, inviting price-shopping.
+* The rookie positioned [Your Product] as a commodity smartphone app, inviting price-shopping.
 
 ---
 
@@ -180,7 +180,7 @@ If you accept that first answer and start pitching, you have lost. You must use 
 
 ### What Did the Master AE Accomplish?
 1. **The customer sold himself on the problem.** Marcus explicitly stated that this was the single biggest headache on his plate.
-2. **The price anchor was set at \$4.5 Million.** When the AE later presents Maptician at \$35,000/year, Marcus will view it as an extraordinary bargain to protect a \$4.5M lease decision.
+2. **The price anchor was set at \$4.5 Million.** When the AE later presents [Your Product] at \$35,000/year, Marcus will view it as an extraordinary bargain to protect a \$4.5M lease decision.
 3. **The Economic Buyer was exposed.** The AE now knows that **CFO Dave** is the ultimate check-signer and exactly what metrics Dave requires to authorize the project.
 
 ---

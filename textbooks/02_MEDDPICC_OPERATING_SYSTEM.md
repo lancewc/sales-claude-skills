@@ -43,12 +43,12 @@ There are two classes of metrics in B2B SaaS:
 2. **M2 (Hard Economic Metrics):** Direct OpEx reduction, CapEx avoidance, revenue expansion, lease liability reduction, risk mitigation.
    * *The Rule:* A deal is only qualified when you have an **M2 metric verified by the Champion AND confirmed by the Economic Buyer.**
 
-#### The Maptician M2 Mathematical Benchmark:
+#### The [Your Product] M2 Mathematical Benchmark:
 * Leased RSF: 40,000 sq ft.
 * Annual Lease Rate: \$48 / RSF / year = \$1,920,000 annual liability.
 * Audited Unutilized Peak Capacity: 28% = 11,200 sq ft of dead office space.
 * **Quantified M2 Metric:** Eliminating 11,200 RSF on upcoming lease renegotiation saves **\$537,600 annually**.
-* **ROI Ratio:** Against a \$36,000 Maptician ACV, the hard economic return is **14.9x**.
+* **ROI Ratio:** Against a \$36,000 [Your Product] ACV, the hard economic return is **14.9x**.
 
 ---
 
@@ -85,7 +85,7 @@ If you receive an RFP or a list of criteria from a customer, you are already los
 You must proactively plant **"Trap-Door Criteria"** that highlight your architectural advantages while disqualifying rivals:
 
 ```
-  COMPETITOR ARCHITECTURAL FLAW          MAPTICIAN ARCHITECTURAL ADVANTAGE        THE TRAP-SETTING QUESTION TO PLANT
+  COMPETITOR ARCHITECTURAL FLAW          YOUR PRODUCT ARCHITECTURAL ADVANTAGE     THE TRAP-SETTING QUESTION TO PLANT
   ────────────────────────────────────   ──────────────────────────────────────   ───────────────────────────────────────
   Point check-in apps (Envoy / Robin)    Full-scale spatial mapping with native   "Does your criteria require a tool that
   require third-party CAD services or    CAD/SVG real-time reconfiguration        merely checks in visitors, or one that
@@ -135,7 +135,7 @@ Sales reps assume that once a prospect says *"We chose you,"* the contract will 
 
 #### How to Map the Paper Process on Day 15 (Not Day 85):
 Ask your Champion:
-> *"Sarah, congratulations on picking Maptician as your preferred platform. To make sure we hit your Nov 15th go-live deadline before your Chicago lease milestone, walk me through your company's actual paper process:*
+> *"Sarah, congratulations on picking [Your Product] as your preferred platform. To make sure we hit your Nov 15th go-live deadline before your Chicago lease milestone, walk me through your company's actual paper process:*
 > 1. *Who on your legal team reviews SaaS Master Services Agreements (MSAs)? Is it internal legal counsel or an outside law firm?*
 > 2. *Does your InfoSec team require their own custom security questionnaire, or do they accept our standard SOC2 Type II report and third-party penetration test?*
 > 3. *What is your procurement team's vendor onboarding timeline?*
@@ -200,10 +200,10 @@ You do not defeat the Status Quo by pitching features. You defeat it by **provin
 ## CHAPTER 3: LIVE MEDDPICC DEAL TEARDOWN
 ### *The \$75,000 Opportunity Audit*
 
-Let’s review an actual pipeline review between a **VP of Sales (Manager)** and an **Account Executive (Rep)** at Maptician:
+Let’s review an actual pipeline review between a **VP of Sales (Manager)** and an **Account Executive (Rep)** at [Your Product]:
 
 > **Manager:** "Talk to me about the OmniCorp deal. You have them in the forecast for \$75,000 closing Nov 30th. Are we closing it?"  
-> **Rep:** "Yeah, feeling great about it. Mark, the Director of Facilities, is in love with Maptician. He told me our interactive floor plans blew away Envoy. He said he has budget and is ready to buy."  
+> **Rep:** "Yeah, feeling great about it. Mark, the Director of Facilities, is in love with [Your Product]. He told me our interactive floor plans blew away Envoy. He said he has budget and is ready to buy."  
 > 
 > **Manager:** "Okay, let’s run the MEDDPICC. Who is the Economic Buyer?"  
 > **Rep:** "Mark is. He's the Director of Facilities."  
@@ -221,7 +221,7 @@ Let’s review an actual pipeline review between a **VP of Sales (Manager)** and
 > Pull this deal out of the commit forecast immediately. It's in the pipeline, but it is totally unqualified."
 
 #### The Prescriptive Action Plan to Save the Deal:
-1. **Test Mark immediately:** Tell Mark that before pricing can be released, Maptician’s executive solution team requires a 20-minute financial scoping call with him and the CFO.
+1. **Test Mark immediately:** Tell Mark that before pricing can be released, [Your Product]’s executive solution team requires a 20-minute financial scoping call with him and the CFO.
 2. **If Mark refuses:** Mark is an unqualified Coach. The rep must multi-thread directly to the VP of Corporate Real Estate or CFO using lease-consolidation messaging.
 3. **Trigger the Paper Process early:** Send the standard SOC2 Type II package to OmniCorp’s IT gatekeeper immediately to run in parallel with discovery.
 

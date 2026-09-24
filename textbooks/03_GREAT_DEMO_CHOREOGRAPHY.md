@@ -47,14 +47,14 @@ In software sales, you must **Do the Last Thing First**.
 
 You open the software demonstration directly to the **final payoff screen**—the exact dashboard, report, or visual outcome that solves the primary financial pain uncovered in discovery.
 
-#### The 3-Minute Payoff Script (Maptician Executive Demonstration)
+#### The 3-Minute Payoff Script ([Your Product] Executive Demonstration)
 *Attendees: Dave (CFO) and Sarah (Workplace Director).*
 
 > **AE:** *"Dave, Sarah, thanks for hopping on. On Tuesday, we discussed how your upcoming Chicago lease renewal is putting \$4.5M on the line, and right now you have zero empirical data to know if you can safely terminate Floor 3 without running out of desks.*
 > 
 > *Instead of walking you through our user settings or how an admin sets up a profile, I want to show you the final screen your executive committee will look at every single Monday morning.*
 > 
-> *(AE shares screen directly to the Maptician Executive Spatial Utilization Analytics Dashboard)*
+> *(AE shares screen directly to the [Your Product] Executive Spatial Utilization Analytics Dashboard)*
 > 
 > *Dave, look right here in the center of your screen:*
 > * *Over the last 90 days, your peak hybrid attendance across your 450 Chicago employees occurred on Wednesdays, averaging 64% occupancy.*
@@ -146,7 +146,7 @@ You answered the question, proved the capability, and returned to your value nar
 ---
 
 ## CHAPTER 6: THE SCRIPTED 15-MINUTE EXECUTIVE DEMO FLOW
-### *Maptician Enterprise Presentation Choreography*
+### *[Your Product] Enterprise Presentation Choreography*
 
 * **Total Scheduled Time:** 30 Minutes
 * **Total Demo Screen-Share Time:** Exactly 14 Minutes
@@ -173,13 +173,13 @@ You answered the question, proved the capability, and returned to your value nar
 > *"Here is the payoff: an automated real-time view showing your executive committee that Floor 3 runs at 28% peak utilization, proving you can consolidate those heads onto Floors 1 and 2, saving \$900,000 annually."*
 
 #### Minute 05–09: Workflow 1 (Employee Experience in 2 Clicks)
-> *"Now, how does that data get generated without annoying your employees? Watch this: an employee opens Maptician on their phone or inside Slack, clicks their department neighborhood, sees where their manager is sitting, and taps 'Reserve'. That took 4 seconds. No forms, no confusion."*
+> *"Now, how does that data get generated without annoying your employees? Watch this: an employee opens [Your Product] on their phone or inside Slack, clicks their department neighborhood, sees where their manager is sitting, and taps 'Reserve'. That took 4 seconds. No forms, no confusion."*
 
 #### Minute 09–13: Workflow 2 (Facilities In-House Move Management)
 > *"And Sarah, for your facilities team who used to spend 6 hours in Visio: watch how you reconfigure space. You click 'Scenario Planner', highlight 20 desks on Floor 3, drag them into the west wing of Floor 2, and click 'Apply'. The floor plan is live, rosters are updated, and employees are notified. A 6-hour manual headache just became a 60-second in-house workflow."*
 
 #### Minute 13–14: Re-closing the Loop
-> *"That is Maptician in a nutshell: 4-second booking for employees, 60-second floorplan agility for facilities, and \$900,000 in lease savings for Dave's finance team."*
+> *"That is [Your Product] in a nutshell: 4-second booking for employees, 60-second floorplan agility for facilities, and \$900,000 in lease savings for Dave's finance team."*
 
 #### Minute 14–30: Screen-Share OFF (The Power Move)
 > *(AE stops screen share. The faces of the attendees fill the screen).*  
@@ -192,7 +192,7 @@ You answered the question, proved the capability, and returned to your value nar
 ## CHAPTER 7: FIELD EXERCISES & DEMO AUDITS
 
 ### Exercise 1: The Harbor Tour Elimination
-* **Task:** Record yourself giving a 10-minute demo of Maptician.
+* **Task:** Record yourself giving a 10-minute demo of [Your Product].
 * **Audit:** Count every single mouse click. If your total clicks exceed 15, identify the unnecessary administrative screens and eliminate them from your workflow.
 
 ### Exercise 2: The Inverted Opening

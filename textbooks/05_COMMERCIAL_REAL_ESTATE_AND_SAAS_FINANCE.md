@@ -24,7 +24,7 @@ This was the single biggest accounting disruption in corporate real estate histo
                   2. Current & Non-Current Lease Liabilities
 ```
 
-### Why This Matters for a Maptician Seller:
+### Why This Matters for a [Your Product] Seller:
 * When a company signs a 5-year lease for 50,000 RSF at \$50/sq ft, they are not just committing to \$2.5M in annual rent.
 * They are placing an immediate **\$12.5 MILLION LIABILITY** directly onto their balance sheet.
 * **The Impact on the CFO:** 
@@ -32,7 +32,7 @@ This was the single biggest accounting disruption in corporate real estate histo
   2. It can trigger loan covenant violations with commercial lenders.
   3. It depresses return on assets (ROA).
 
-**When you pitch Maptician to a CFO, you are not selling a "desk booking app."**  
+**When you pitch [Your Product] to a CFO, you are not selling a "desk booking app."**  
 You are giving them the empirical occupancy telemetry required to **strip \$3M to \$10M in debt liabilities off their corporate balance sheet** prior to their next lease renewal.
 
 ---
@@ -99,7 +99,7 @@ A CFO cannot simply declare a 1.6:1 ratio on a whiteboard and tell employees to 
 * High-performing talent revolts against RTO mandates.
 * Departmental managers demand dedicated space back.
 
-**The Solution:** Maptician is the operational nervous system that makes agile sharing ratios work in the real world:
+**The Solution:** [Your Product] is the operational nervous system that makes agile sharing ratios work in the real world:
 * Dynamic team neighborhoods eliminate chaos.
 * Real-time reservation telemetry prevents overcrowding.
 * Historical occupancy reports prove to leadership that peak demand never exceeds capacity.
@@ -139,7 +139,7 @@ Here is the complete **Operating Cost Waterfall** that a CFO evaluates:
 * Property Tax Reduction: 15,000 × \$6 = **\$90,000**
 * **Total Annual OpEx Elimination:** **\$1,035,000 per year.**
 
-Against a \$35,000 annual Maptician contract:
+Against a \$35,000 annual [Your Product] contract:
 $$\text{ROI Multiple} = \frac{\$1,035,000}{\$35,000} = \mathbf{29.5\times\text{ ROI}}$$
 $$\text{Payback Period} = \frac{\$35,000}{\$1,035,000} \times 365 = \mathbf{12.3\text{ Days}}$$
 
@@ -156,7 +156,7 @@ Different industries have vastly different cultural and commercial real estate r
 ### Vertical 1: Law Firms & Legal Practices
 * **The Reality:** Highly partner-driven. Equity partners bill \$1,000–\$1,800/hour. Dedicated corner offices are historic status symbols.
 * **The Friction:** Partners demand dedicated offices, but hybrid work means their offices sit empty 50% of the week. Law firms have the highest square-footage-per-employee in corporate America (often 250–350 sq ft per attorney).
-* **The Maptician Playbook:**
+* **The [Your Product] Playbook:**
   * **Never** use the words "hot-desking" or "desk booking."
   * Use legal terminology: *"Universal office sizing"*, *"visiting partner hoteling"*, *"practice group neighborhoods"*.
   * Focus on: Preserving partner autonomy while capturing associate utilization data to downsize lease footprints prior to 10-year lease renewals.
@@ -166,7 +166,7 @@ Different industries have vastly different cultural and commercial real estate r
 ### Vertical 2: Financial Services & Banking
 * **The Reality:** Heavy compliance, strict risk management, high executive presence, aggressive RTO mandates (4–5 days in office).
 * **The Friction:** Compliance rules require strict physical separation (e.g., Information Barriers / Chinese Walls between investment banking and equity research). High turnover and constant departmental reorganizations.
-* **The Maptician Playbook:**
+* **The [Your Product] Playbook:**
   * Emphasize **Role-Based Access Control (RBAC)** and compliance zoning on floor plans.
   * Highlight rapid, in-house scenario planning (moving 50 traders in 2 minutes without external CAD fees).
   * Focus on: Board-level attendance audit compliance to enforce firm-wide RTO policies without manual HR policing.
@@ -176,7 +176,7 @@ Different industries have vastly different cultural and commercial real estate r
 ### Vertical 3: Mid-Market & Enterprise Technology
 * **The Reality:** Volatile headcount cycles (hyper-growth followed by consolidation), highly vocal engineering workforce resistant to rigid top-down policies.
 * **The Friction:** Tech firms over-leased massive Class-A footprints in 2021–2022. They are now desperately trying to sublease excess space or consolidate 4 floors down to 2 without alienating engineering talent.
-* **The Maptician Playbook:**
+* **The [Your Product] Playbook:**
   * Focus on **Sublease Carve-Out Analytics**: Identifying clean, contiguous blocks of space (e.g., an entire west wing or single floor) that can be walled off and subleased to an external tenant to generate immediate cash flow.
   * Highlight self-service team neighborhoods and Slack/Teams integrations.
 
@@ -205,9 +205,9 @@ When your Champion walks into the CFO's office, they should carry exactly **one 
 
 ---
 
-### 2. THE PROPOSED INTERVENTION (MAPTICIAN DEPLOYMENT)
+### 2. THE PROPOSED INTERVENTION (YOUR PRODUCT DEPLOYMENT)
 * **Strategic Action:** Transition from static assigned seating to dynamic departmental neighborhoods on Floors 2 and 4. Consolidate and terminate the Floor 3 lease (18,000 RSF) prior to the Q4 lease notification deadline.
-* **Software Investment (Maptician Enterprise):** $36,000 / year (Fixed OpEx).
+* **Software Investment ([Your Product] Enterprise):** $36,000 / year (Fixed OpEx).
 * **Deployment Timeline:** 30 days to full operational go-live (SSO integrated, CAD floor plans ingested, zero on-prem server infrastructure).
 
 ---
@@ -219,7 +219,7 @@ When your Champion walks into the CFO's office, they should carry exactly **one 
 | **Gross Annual Lease Elimination** | **+$864,000 / year** | 18,000 RSF terminated at $48/sq ft. |
 | **CAM, Janitorial & Utility Savings** | **+$144,000 / year** | Reduction in pro-rata building operating costs. |
 | **Total Annual Cost Elimination** | **+$1,008,000 / year** | Direct positive EBITDA expansion. |
-| **Less Software Investment** | **-$36,000 / year** | Maptician Enterprise platform fee. |
+| **Less Software Investment** | **-$36,000 / year** | [Your Product] Enterprise platform fee. |
 | **NET 1ST-YEAR CASH BENEFIT** | **+$972,000** | Net bottom-line Free Cash Flow expansion. |
 | **CAPITAL RETURN MULTIPLE (ROI)** | **27.0x ROI** | $972k net benefit / $36k investment. |
 | **CAPITAL PAYBACK PERIOD** | **13.5 Days** | Fully recouped within 2 weeks of lease restructuring. |
@@ -227,7 +227,7 @@ When your Champion walks into the CFO's office, they should carry exactly **one 
 ---
 
 ### 4. RECOMMENDATION & SIGNATURE
-Approve execution of the Maptician order form (\$36,000) to initiate data onboarding and secure empirical telemetry prior to landlord lease negotiations.
+Approve execution of the [Your Product] order form (\$36,000) to initiate data onboarding and secure empirical telemetry prior to landlord lease negotiations.
 
 **Approved By:** _____________________________________ (Dave Miller, Chief Financial Officer)
 ```

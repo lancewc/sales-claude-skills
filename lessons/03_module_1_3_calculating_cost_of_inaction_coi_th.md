@@ -51,7 +51,7 @@ Never send a CFO a 40-page slide deck. Send a 1-page financial memo with three s
 <strong class="text-white">1. Current Economic Bleed:</strong> Current lease commitment vs. audited utilization gap ($900k unutilized capacity).
 
             
-<strong class="text-white">2. Proposed Intervention & Capital Outlay:</strong> Maptician deployment ($36,000 annual ACV).
+<strong class="text-white">2. Proposed Intervention & Capital Outlay:</strong> [Your Product] deployment ($36,000 annual ACV).
 
             
 <strong class="text-white">3. Net Economic Yield & Payback:</strong> $450k net annualized savings, 12.5x ROI multiple, capital payback within 29 days of lease restructuring.

@@ -56,8 +56,8 @@ Dixon and McKenna's machine learning analysis revealed a shocking, counter-intui
 Buyers do not stall because they are afraid of missing out. They stall because they suffer from **FOMU: Fear Of Messing Up.**
 
 In corporate organizations, the psychology of human career preservation is governed by two cognitive biases:
-1. **Error of Omission (Doing Nothing):** If the Facilities Director does not buy Maptician and the office stays a bit messy, nobody gets fired. It is an error of omission. The status quo is safe, defensible, and shared by everyone.
-2. **Error of Commission (Taking Action):** If the Facilities Director champions a \$40,000 Maptician contract, and during week 2 of rollout the badge integrations glitch, employees complain about unassigned desks, and the COO gets annoyed, **the Facilities Director takes 100% of the personal blame.** Their reputation is damaged, their bonus is at risk, and their career is on the line.
+1. **Error of Omission (Doing Nothing):** If the Facilities Director does not buy [Your Product] and the office stays a bit messy, nobody gets fired. It is an error of omission. The status quo is safe, defensible, and shared by everyone.
+2. **Error of Commission (Taking Action):** If the Facilities Director champions a \$40,000 [Your Product] contract, and during week 2 of rollout the badge integrations glitch, employees complain about unassigned desks, and the COO gets annoyed, **the Facilities Director takes 100% of the personal blame.** Their reputation is damaged, their bonus is at risk, and their career is on the line.
 
 **When you dial up FOMO, you don't motivate the buyer; you amplify their anxiety.** 
 
@@ -129,7 +129,7 @@ When a buyer is suffering from Valuation Uncertainty or Choice Overload, **stop 
 
 Every additional tier, toggle, or add-on you offer increases cognitive friction and delays the close.
 
-#### The "Sommelier" Script (Maptician Packaging Alignment)
+#### The "Sommelier" Script ([Your Product] Packaging Alignment)
 *Prospect asks for 3 different tier permutations.*
 
 > **Rookie AE:** *"Sure! I'll send over quotes for Tier 1, Tier 2, and Tier 3, and you guys can look them over and decide which fits your budget best!"*  
@@ -156,7 +156,7 @@ Buyers think that doing another demo or testing another obscure edge case will g
 
 > **Master AE:** *"Sarah, we can certainly set up another demo to show that workflow, but let's pause for a second.  
 > 
-> Over our last two sessions, we validated that Maptician handles 95% of your daily operations: dynamic neighborhood booking, automated roster sync with BambooHR, and real-time occupancy reporting for your CFO.  
+> Over our last two sessions, we validated that [Your Product] handles 95% of your daily operations: dynamic neighborhood booking, automated roster sync with BambooHR, and real-time occupancy reporting for your CFO.  
 > 
 > If we keep scheduling demos for 1% edge-case scenarios, two things will happen: we will introduce unnecessary complexity, and we will miss your November 15th go-live deadline to consolidate your Chicago lease.  
 > 
@@ -222,7 +222,7 @@ If you adjust price, you must adjust scope, payment terms, or contract length. T
 | **Free Implementation Setup** | Require a **Named Case Study & Press Release** | Gives your marketing team an enterprise customer story worth \$25k in pipeline. |
 
 #### The Verbatim Negotiation Script:
-> **Procurement:** *"We have approved Maptician, but our policy requires a mandatory 15% discount across all software vendors before we issue a purchase order. We need this at \$30,000."*  
+> **Procurement:** *"We have approved [Your Product], but our policy requires a mandatory 15% discount across all software vendors before we issue a purchase order. We need this at \$30,000."*  
 > 
 > **Master AE (Chris Voss Tactical Empathy + Concession Trading):**  
 > *"Dave, I completely respect that your job as CFO is to protect cash and ensure fiscal discipline on every vendor agreement. And candidly, if our pricing were arbitrary, I would happily adjust it.  
@@ -243,7 +243,7 @@ Notice what this script does:
 ## CHAPTER 6: FIELD DRILLS & ROLEPLAYS
 
 ### Drill 1: The Indecision Diagnostic
-* **Scenario:** A champion who was energetic for 3 weeks suddenly sends an email: *"Hey Lance, our team talked, and with everything going on with our ERP migration, we think it's best to push this space software project to next summer."*
+* **Scenario:** A champion who was energetic for 3 weeks suddenly sends an email: *"Hey [Your Name], our team talked, and with everything going on with our ERP migration, we think it's best to push this space software project to next summer."*
 * **Exercise:** Write a response that does NOT use FOMO or pressure, but uses JOLT Behavior 4 (Take Risk Off the Table) to re-engage the deal.
 
 ### Drill 2: The Concession Counter

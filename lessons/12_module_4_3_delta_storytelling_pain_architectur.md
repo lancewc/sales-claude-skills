@@ -29,7 +29,7 @@ Elite demos are not technical walkthroughs; they are contrast stories. You ancho
 
               2. Show the Architectural Fix:
 
-              "Watch this. With Maptician's dynamic scenario planner, you simply highlight those 30 desks, drag them to the west wing, and the system automatically updates the roster and sends desk notifications to the team."
+              "Watch this. With [Your Product]'s dynamic scenario planner, you simply highlight those 30 desks, drag them to the west wing, and the system automatically updates the roster and sends desk notifications to the team."
             
 
             
@@ -56,7 +56,7 @@ Elite demos are not technical walkthroughs; they are contrast stories. You ancho
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "Script a 60-second Delta Story for Maptician: 1. Discovery Pain → 2. Architectural Demonstration → 3. Quantified Business Delta."
+> "Script a 60-second Delta Story for [Your Product]: 1. Discovery Pain → 2. Architectural Demonstration → 3. Quantified Business Delta."
 
 ---
 

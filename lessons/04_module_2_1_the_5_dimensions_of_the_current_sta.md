@@ -68,7 +68,7 @@ Top enterprise AEs understand that a tool is never the goal. The goal is closing
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "Take a common objection you hear at Maptician ('We already manage seating in Excel'). Map out the 5 dimensions of their Current State to find the hidden business impact."
+> "Take a common objection you hear at [Your Product] ('We already manage seating in Excel'). Map out the 5 dimensions of their Current State to find the hidden business impact."
 
 ---
 

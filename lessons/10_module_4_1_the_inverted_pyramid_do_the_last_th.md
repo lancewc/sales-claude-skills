@@ -59,7 +59,7 @@ Structure your software demonstration like a breaking news story—the most crit
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "What is the single highest-value screen in Maptician for a VP of Real Estate? Script your first 60 seconds showing that screen."
+> "What is the single highest-value screen in [Your Product] for a VP of Real Estate? Script your first 60 seconds showing that screen."
 
 ---
 

@@ -40,7 +40,7 @@ When asked for a feature, use this 3-step pivot:
 
 ## 2. Interactive Knowledge & Comprehension Check
 
-**Question:** When a prospect asks 'Does Maptician have an integration with Microsoft Teams?', what is the elite AE response?
+**Question:** When a prospect asks 'Does [Your Product] have an integration with Microsoft Teams?', what is the elite AE response?
 
 * [A] 'Yes we do! Let me send you a screenshot of the integration right now.'
 * [B] 'Yes, absolutely. Just curious, how are your teams currently using Teams for hybrid scheduling, and what breaks when they try to coordinate in-office days today?' ✓ [CORRECT]
@@ -54,7 +54,7 @@ When asked for a feature, use this 3-step pivot:
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "Identify 2 features prospects constantly ask about at Maptician. Script an 'Acknowledge & Pivot' question for each."
+> "Identify 2 features prospects constantly ask about at [Your Product]. Script an 'Acknowledge & Pivot' question for each."
 
 ---
 

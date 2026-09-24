@@ -52,7 +52,7 @@ When demonstrating how data gets into the system, design the workflow in **3 cli
 - Click 2: Density toggle
 - Click 3: Export board report
 
-### 3. The TelSell Illustration Rule
+### 3. The Tell-Show-Tell Illustration Rule
 Before clicking any button or changing any screen:
 1. **Tell them what they are about to see.**
 2. **Click once.**

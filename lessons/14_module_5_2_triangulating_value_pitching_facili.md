@@ -55,7 +55,7 @@ A rookie AE pitches the exact same narrative to every stakeholder. An enterprise
 ## 3. Applied Frontline Field Reflection
 
 **Reflection Prompt:**  
-> "Draft a 3-sentence outreach email to a Chief Information Security Officer (CISO) asking for their InfoSec review timeline on an ongoing Maptician evaluation."
+> "Draft a 3-sentence outreach email to a Chief Information Security Officer (CISO) asking for their InfoSec review timeline on an ongoing [Your Product] evaluation."
 
 ---
 

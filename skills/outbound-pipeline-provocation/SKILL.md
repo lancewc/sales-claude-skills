@@ -55,7 +55,7 @@ Open to exploring if your current occupancy data is strong enough to support you
 ```
 
 ### 2. The Law Firm Managing Partner Cold Call Script
-- **Opener:** *"David, this is Lance with Maptician. I know you weren't expecting my call—I’ll take 25 seconds to tell you why I called, and if it's not relevant, you can hang up. Fair?"*
+- **Opener:** *"David, this is [Your Name] with [Your Product]. I know you weren't expecting my call—I’ll take 25 seconds to tell you why I called, and if it's not relevant, you can hang up. Fair?"*
 - **The Hook:** *"We work with law firm managing partners across Chicago who are wrestling with associate hybrid attendance on Tuesdays and Thursdays, but whose partners refuse to give up their assigned private offices."*
 - **The Question:** *"When your practice group leaders look at your floorplans today, are you seeing associates sitting in empty partner offices, or is that tension causing friction across your firm?"*
 - **Objection: 'Attorneys have assigned offices; we don’t do hot-desking':**  

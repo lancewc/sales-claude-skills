@@ -19,13 +19,13 @@ const classroomLessons = [
           <ul class="space-y-2 text-xs text-slate-400">
             <li><strong class="text-slate-200">CapEx (Capital Expenditures):</strong> Major long-term physical assets (buying office buildings, heavy hardware, massive proprietary server infrastructure). Paid upfront, depreciated over 5–10 years on the balance sheet.</li>
             <li><strong class="text-slate-200">OpEx (Operating Expenses):</strong> Ongoing operational costs (cloud software subscriptions, monthly lease payments, utilities). Fully tax-deductible in the year they are spent.</li>
-            <li><strong class="text-slate-200">The AE Advantage:</strong> Maptician is an <strong>OpEx investment that directly cannibalizes a bloated OpEx liability (Real Estate Leases)</strong>. You are not asking for 'new money'; you are reallocating a fraction of a 2-million-dollar lease bleed into high-efficiency software.</li>
+            <li><strong class="text-slate-200">The AE Advantage:</strong> [Your Product] is an <strong>OpEx investment that directly cannibalizes a bloated OpEx liability (Real Estate Leases)</strong>. You are not asking for 'new money'; you are reallocating a fraction of a 2-million-dollar lease bleed into high-efficiency software.</li>
           </ul>
         </div>
 
         <div class="p-4 rounded-xl bg-surface-950 border border-slate-800 my-4">
           <h5 class="text-xs font-mono font-bold text-emerald-400 uppercase tracking-wider mb-2">2. The EBITDA Metric Every VP of Sales Forgets</h5>
-          <p class="text-xs text-slate-400"><strong>EBITDA</strong> = Earnings Before Interest, Taxes, Depreciation, and Amortization. In PE-backed and public firms, enterprise valuation is typically a multiple of EBITDA (e.g., 10x–20x EBITDA). If Maptician helps a 500-person enterprise downsize 15,000 sq ft, saving <strong>\$600,000/year</strong> in lease liability:</p>
+          <p class="text-xs text-slate-400"><strong>EBITDA</strong> = Earnings Before Interest, Taxes, Depreciation, and Amortization. In PE-backed and public firms, enterprise valuation is typically a multiple of EBITDA (e.g., 10x–20x EBITDA). If [Your Product] helps a 500-person enterprise downsize 15,000 sq ft, saving <strong>\$600,000/year</strong> in lease liability:</p>
           <div class="p-3 bg-surface-900 rounded-lg font-mono text-emerald-300 text-xs my-2">
             $600k Lease Savings - $30k Software ACV = +$570,000 Net EBITDA Expansion.<br>
             At a 15x Valuation Multiple, you just added $8,550,000 in Enterprise Value to their company.
@@ -95,7 +95,7 @@ const classroomLessons = [
             <li><strong>Freeze or slow down headcount additions</strong> (meaning employees must do more per hour).</li>
             <li><strong>Slash SG&A (Selling, General, and Administrative) expenses</strong>—where Corporate Real Estate is often the 2nd largest line item behind payroll.</li>
           </ol>
-          <p class="text-xs text-slate-300 mt-3 font-semibold">Your positioning: Maptician isn't an arbitrary software purchase; it is the SG&A reduction weapon that lets them cut millions in fixed overhead without firing talent.</p>
+          <p class="text-xs text-slate-300 mt-3 font-semibold">Your positioning: [Your Product] isn't an arbitrary software purchase; it is the SG&A reduction weapon that lets them cut millions in fixed overhead without firing talent.</p>
         </div>
       </div>
     `,
@@ -141,7 +141,7 @@ const classroomLessons = [
           <p class="text-xs text-slate-400 mb-3">Never send a CFO a 40-page slide deck. Send a 1-page financial memo with three sections:</p>
           <div class="space-y-2 text-xs">
             <div class="p-2 rounded bg-surface-950 border border-slate-800"><strong class="text-white">1. Current Economic Bleed:</strong> Current lease commitment vs. audited utilization gap ($900k unutilized capacity).</div>
-            <div class="p-2 rounded bg-surface-950 border border-slate-800"><strong class="text-white">2. Proposed Intervention & Capital Outlay:</strong> Maptician deployment ($36,000 annual ACV).</div>
+            <div class="p-2 rounded bg-surface-950 border border-slate-800"><strong class="text-white">2. Proposed Intervention & Capital Outlay:</strong> [Your Product] deployment ($36,000 annual ACV).</div>
             <div class="p-2 rounded bg-surface-950 border border-slate-800"><strong class="text-white">3. Net Economic Yield & Payback:</strong> $450k net annualized savings, 12.5x ROI multiple, capital payback within 29 days of lease restructuring.</div>
           </div>
         </div>
@@ -213,7 +213,7 @@ const classroomLessons = [
       correctIdx: 1,
       explanation: "Without quantifying the Business Impact (dollars, wasted time, lost revenue, executive risk), a problem remains a minor nuisance that can be ignored."
     },
-    reflectionPrompt: "Take a common objection you hear at Maptician ('We already manage seating in Excel'). Map out the 5 dimensions of their Current State to find the hidden business impact."
+    reflectionPrompt: "Take a common objection you hear at [Your Product] ('We already manage seating in Excel'). Map out the 5 dimensions of their Current State to find the hidden business impact."
   },
   {
     id: "2.2",
@@ -294,7 +294,7 @@ const classroomLessons = [
       </div>
     `,
     quiz: {
-      question: "When a prospect asks 'Does Maptician have an integration with Microsoft Teams?', what is the elite AE response?",
+      question: "When a prospect asks 'Does [Your Product] have an integration with Microsoft Teams?', what is the elite AE response?",
       options: [
         "'Yes we do! Let me send you a screenshot of the integration right now.'",
         "'Yes, absolutely. Just curious, how are your teams currently using Teams for hybrid scheduling, and what breaks when they try to coordinate in-office days today?'",
@@ -304,7 +304,7 @@ const classroomLessons = [
       correctIdx: 1,
       explanation: "Confirming the capability while immediately probing their current operational friction keeps you in diagnostic control and exposes the underlying problem."
     },
-    reflectionPrompt: "Identify 2 features prospects constantly ask about at Maptician. Script an 'Acknowledge & Pivot' question for each."
+    reflectionPrompt: "Identify 2 features prospects constantly ask about at [Your Product]. Script an 'Acknowledge & Pivot' question for each."
   },
 
   // SEMESTER 3
@@ -383,7 +383,7 @@ const classroomLessons = [
           <h5 class="text-xs font-mono font-bold text-amber-400 uppercase mb-2">How to Secure the EB Meeting Without Offending Your Champion</h5>
           <p class="text-xs text-slate-400 mb-3">Rookies bypass their champion and get blocked. Elite AEs partner with the champion to elevate both of them:</p>
           <div class="p-3 bg-surface-900 rounded font-mono text-xs text-slate-300 leading-relaxed">
-            "Sarah, you and I both know Maptician will solve your seating chaos, but Dave (CFO) is going to evaluate this purely through capital allocation and real estate liability. In our experience, CFOs kill projects at the 11th hour if they haven't seen the financial model early. If we build a 1-page business case showing $300k lease savings, would you want to co-present that with me to Dave so you look like a rockstar to executive leadership?"
+            "Sarah, you and I both know [Your Product] will solve your seating chaos, but Dave (CFO) is going to evaluate this purely through capital allocation and real estate liability. In our experience, CFOs kill projects at the 11th hour if they haven't seen the financial model early. If we build a 1-page business case showing $300k lease savings, would you want to co-present that with me to Dave so you look like a rockstar to executive leadership?"
           </div>
         </div>
 
@@ -421,7 +421,7 @@ const classroomLessons = [
           <h5 class="text-xs font-mono font-bold text-brand-400 uppercase mb-2">1. Trap-Setting Decision Criteria</h5>
           <p class="text-xs text-slate-400 mb-2">If you didn't help write the customer's evaluation criteria, your competitor did. You must plant "landmines" based on your architectural advantages:</p>
           <ul class="text-xs text-slate-300 space-y-1.5">
-            <li>• <strong>Example Trap:</strong> If Maptician updates complex CAD/SVG floor plans in minutes without requiring external professional services, ask: <em>"When you need to reconfigure 50 desks next quarter, does your criteria require your own team to edit floor plans in-house, or are you comfortable paying vendor professional service fees every time?"</em></li>
+            <li>• <strong>Example Trap:</strong> If [Your Product] updates complex CAD/SVG floor plans in minutes without requiring external professional services, ask: <em>"When you need to reconfigure 50 desks next quarter, does your criteria require your own team to edit floor plans in-house, or are you comfortable paying vendor professional service fees every time?"</em></li>
             <li>• Now, any competitor that charges for floorplan updates fails their written criteria.</li>
           </ul>
         </div>
@@ -495,7 +495,7 @@ const classroomLessons = [
       correctIdx: 2,
       explanation: "Doing the Last Thing First commands executive attention by proving the business payoff immediately before walking through the operational mechanics."
     },
-    reflectionPrompt: "What is the single highest-value screen in Maptician for a VP of Real Estate? Script your first 60 seconds showing that screen."
+    reflectionPrompt: "What is the single highest-value screen in [Your Product] for a VP of Real Estate? Script your first 60 seconds showing that screen."
   },
   {
     id: "4.2",
@@ -553,7 +553,7 @@ const classroomLessons = [
             </div>
             <div class="p-2.5 rounded bg-surface-900 border border-slate-800">
               <span class="text-brand-400 font-bold">2. Show the Architectural Fix:</span><br>
-              "Watch this. With Maptician's dynamic scenario planner, you simply highlight those 30 desks, drag them to the west wing, and the system automatically updates the roster and sends desk notifications to the team."
+              "Watch this. With [Your Product]'s dynamic scenario planner, you simply highlight those 30 desks, drag them to the west wing, and the system automatically updates the roster and sends desk notifications to the team."
             </div>
             <div class="p-2.5 rounded bg-surface-900 border border-slate-800">
               <span class="text-emerald-400 font-bold">3. Land the Quantified Business Delta:</span><br>
@@ -574,7 +574,7 @@ const classroomLessons = [
       correctIdx: 0,
       explanation: "Without anchoring to specific previously admitted pain, a feature demonstration is just button-clicking without economic context."
     },
-    reflectionPrompt: "Script a 60-second Delta Story for Maptician: 1. Discovery Pain → 2. Architectural Demonstration → 3. Quantified Business Delta."
+    reflectionPrompt: "Script a 60-second Delta Story for [Your Product]: 1. Discovery Pain → 2. Architectural Demonstration → 3. Quantified Business Delta."
   },
 
   // SEMESTER 5
@@ -666,7 +666,7 @@ const classroomLessons = [
       correctIdx: 1,
       explanation: "IT leaders care primarily about security, identity management, compliance, and minimizing ongoing IT support overhead."
     },
-    reflectionPrompt: "Draft a 3-sentence outreach email to a Chief Information Security Officer (CISO) asking for their InfoSec review timeline on an ongoing Maptician evaluation."
+    reflectionPrompt: "Draft a 3-sentence outreach email to a Chief Information Security Officer (CISO) asking for their InfoSec review timeline on an ongoing [Your Product] evaluation."
   },
   {
     id: "5.3",
@@ -847,7 +847,7 @@ const classroomLessons = [
       correctIdx: 0,
       explanation: "Unreciprocated discounts destroy price integrity and signal weakness. Always trade price for payment terms, contract duration, or scope."
     },
-    reflectionPrompt: "Script your response to a procurement agent who says 'We have approved Maptician, but our policy requires a mandatory 15% discount across all new software vendors.'"
+    reflectionPrompt: "Script your response to a procurement agent who says 'We have approved [Your Product], but our policy requires a mandatory 15% discount across all new software vendors.'"
   }
 ];
 
@@ -1101,7 +1101,7 @@ function loadLesson(lessonId) {
         <span>${lesson.reflectionPrompt}</span>
       </div>
 
-      <textarea id="student-lesson-notes" oninput="handleNotesInput('${lesson.id}')" placeholder="Type your personal reflection, custom Maptician call tracks, or key takeaways here... (auto-saves in real-time)" class="w-full h-36 bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded p-4 text-xs font-serif text-[#141413] placeholder-[#87867F] focus:outline-none focus:border-[#C6613F] leading-relaxed">${savedNotes}</textarea>
+      <textarea id="student-lesson-notes" oninput="handleNotesInput('${lesson.id}')" placeholder="Type your personal reflection, custom [Your Product] call tracks, or key takeaways here... (auto-saves in real-time)" class="w-full h-36 bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded p-4 text-xs font-serif text-[#141413] placeholder-[#87867F] focus:outline-none focus:border-[#C6613F] leading-relaxed">${savedNotes}</textarea>
     </div>
 
     <!-- LESSON NAVIGATION FOOTER -->
@@ -1198,7 +1198,7 @@ function resetLessonProgress() {
 
 function exportAllStudentNotes() {
   let exportDoc = "# THE SALES MBA - PERSONAL MASTERCLASS STUDY NOTES\n";
-  exportDoc += "Candidate: Lance (Enterprise BDR)\n";
+  exportDoc += "Candidate: [Your Name] (Enterprise BDR)\n";
   exportDoc += `Date: ${new Date().toLocaleDateString()}\n\n`;
 
   let hasNotes = false;

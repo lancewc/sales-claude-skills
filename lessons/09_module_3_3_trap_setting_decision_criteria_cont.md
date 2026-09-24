@@ -21,7 +21,7 @@ If you didn't help write the customer's evaluation criteria, your competitor did
 
           
 
-            * • **Example Trap:** If Maptician updates complex CAD/SVG floor plans in minutes without requiring external professional services, ask: *"When you need to reconfigure 50 desks next quarter, does your criteria require your own team to edit floor plans in-house, or are you comfortable paying vendor professional service fees every time?"*
+            * • **Example Trap:** If [Your Product] updates complex CAD/SVG floor plans in minutes without requiring external professional services, ask: *"When you need to reconfigure 50 desks next quarter, does your criteria require your own team to edit floor plans in-house, or are you comfortable paying vendor professional service fees every time?"*
             * • Now, any competitor that charges for floorplan updates fails their written criteria.
           
 
