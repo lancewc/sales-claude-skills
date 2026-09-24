@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sales MBA | The BDR-to-Enterprise AE Operating System</title>
+  
+  <!-- Tailwind CSS CDN configured with Anthropic Measured Tokens -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bg: '#F0EEE6',
+            surface: {
+              light: '#FAF9F5',
+              oat: '#E3DACC'
+            },
+            ink: '#141413',
+            gray: {
+              dark: '#3D3D3A',
+              muted: '#87867F',
+              footer: '#B0AEA5'
+            },
+            clay: {
+              DEFAULT: '#D97757',
+              dark: '#C6613F'
+            }
+          },
+          fontFamily: {
+            sans: ['"Hanken Grotesk"', '"Manrope"', 'Arial', 'sans-serif'],
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          },
+          maxWidth: {
+            site: '1277px'
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts: Hanken Grotesk (Sans), Source Serif 4 (Serif), JetBrains Mono (Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Marked.js Markdown Parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="selection:bg-[#C6613F] selection:text-white">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-[#FAF9F5] border-b border-[rgba(20,20,19,0.1)] text-xs py-2 px-4 text-center text-[#87867F] flex items-center justify-center gap-3 font-mono uppercase tracking-wider text-[11px] flex-wrap">
+    <span class="text-[#C6613F] font-semibold">OPEN SOURCE</span>
+    <span>•</span>
+    <span class="text-[#141413] lowercase font-sans text-xs">Production Claude Skills for Enterprise Sales & RevOps</span>
+    <span>•</span>
+    <a href="https://github.com/lancewc/sales-claude-skills" target="_blank" class="inline-flex items-center gap-1.5 text-[#141413] hover:text-[#C6613F] underline font-sans text-xs font-semibold">
+      <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+      Star on GitHub (lancewc/sales-claude-skills)
+    </a>
+  </div>
+
+  <!-- NAVIGATION (EXACT ANTHROPIC LAYOUT: LOGO LEFT, 15PX SANS LINKS + SPLIT BUTTON RIGHT) -->
+  <header class="sticky top-0 z-50 backdrop-blur-md bg-[#F0EEE6]/95 border-b border-[rgba(20,20,19,0.1)]">
+    <div class="max-w-[1277px] mx-auto px-6 h-16 flex items-center justify-between">
+      
+      <!-- LOGO (LEFT) -->
+      <a href="#" class="flex items-center gap-2.5 text-decoration-none group">
+        <div class="w-7 h-7 rounded bg-[#141413] flex items-center justify-center text-[#FAF9F5] font-serif font-bold text-xs">
+          Ψ
+        </div>
+        <div class="flex items-baseline gap-2">
+          <span class="font-bold text-base tracking-tight text-[#141413] font-sans">THE SALES MBA</span>
+          <span class="text-[10px] text-[#87867F] font-mono uppercase">REV. 2026</span>
+        </div>
+      </a>
+
+      <!-- NAV LINKS & SPLIT BUTTON (RIGHT) -->
+      <div class="flex items-center gap-3 sm:gap-5">
+        <nav class="hidden lg:flex items-center">
+          <a href="#claude-skills">Claude Skills</a>
+          <a href="#curriculum">Curriculum</a>
+          <a href="#classroom">Classroom</a>
+          <a href="#releases">Releases</a>
+          <a href="#toolkit">Instruments</a>
+          <a href="#certification">Board Exam</a>
+        </nav>
+
+        <!-- GITHUB STAR BUTTON -->
+        <a href="https://github.com/lancewc/sales-claude-skills" target="_blank" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded border border-[rgba(20,20,19,0.15)] bg-[#FAF9F5] text-xs font-sans font-semibold text-[#141413] hover:border-[#141413] transition-colors" title="Star this repository on GitHub">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>Star</span>
+          <span class="bg-[#F0EEE6] px-1.5 py-0.2 rounded text-[10px] font-mono text-[#87867F]">1.4k</span>
+        </a>
+
+        <!-- SPLIT BUTTON (ANTHROPIC 'TRY CLAUDE' PATTERN) -->
+        <div class="btn-split-container">
+          <a href="#claude-skills" class="btn-split-main">
+            Get Claude Skills
+          </a>
+          <button onclick="toggleSplitDropdown(event)" class="btn-split-caret" aria-label="Open portal navigation">
+            <i data-lucide="chevron-down" class="w-3.5 h-3.5"></i>
+          </button>
+          
+          <!-- DROPDOWN MENU -->
+          <div id="split-dropdown" class="split-dropdown-menu hidden">
+            <a href="#claude-skills">
+              <i data-lucide="sparkles" class="w-4 h-4 text-[#C6613F]"></i>
+              <span>Claude Skills Pack (6 Skills)</span>
+            </a>
+            <a href="#classroom">
+              <i data-lucide="book-open" class="w-4 h-4 text-[#C6613F]"></i>
+              <span>Student Classroom (18 Lessons)</span>
+            </a>
+            <a href="#toolkit">
+              <i data-lucide="sliders" class="w-4 h-4 text-[#C6613F]"></i>
+              <span>Deal Instruments Suite</span>
+            </a>
+            <a href="https://github.com/lancewc/sales-claude-skills" target="_blank">
+              <i data-lucide="github" class="w-4 h-4 text-[#C6613F]"></i>
+              <span>GitHub Repository (Source)</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (EXACT ANTHROPIC TWO-COLUMN FORMAT) -->
+  <section class="section-spacer hairline-b">
+    <div class="site-container">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
+        
+        <!-- LEFT COLUMN: BOLD SANS H1 AT 63PX WITH UNDERLINED LINKS -->
+        <div class="lg:col-span-7">
+          <h1>
+            Transforming enterprise sales into <a href="#curriculum" class="headline-link">applied engineering</a> and rigorous <a href="#toolkit" class="headline-link">commercial science</a>.
+          </h1>
+          
+          <div class="mt-8 flex flex-wrap items-center gap-3">
+            <a href="#classroom" class="btn btn-clay">
+              Access Classroom Portal
+            </a>
+            <a href="#toolkit" class="btn btn-secondary">
+              Explore Deal Instruments
+            </a>
+          </div>
+
+          <div class="mt-12 pt-6 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-6 text-xs text-[#87867F]">
+            <span class="meta-label text-xs">CORE DISCIPLINES:</span>
+            <span class="meta-value text-xs text-[#3D3D3A]">Keenan GAP Selling &bull; MEDDPICC &bull; Great Demo! &bull; The JOLT Effect</span>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: 24PX SERIF LEAD PARAGRAPH ALIGNED TO HEADLINE -->
+        <div class="lg:col-span-5 lg:pt-2">
+          <p class="lead">
+            The definitive operating system for high-performing BDRs and enterprise account executives—synthesizing Keenan's root-cause discovery, John McMahon's opportunity qualification, Peter Cohan's demo architecture, and Dixon & McKenna's buyer indecision diagnostics.
+          </p>
+          <p class="small mt-6">
+            Engineered specifically for complex B2B SaaS deal cycles, multi-stakeholder consensus, and commercial real estate balance-sheet financial justification (FASB ASC 842).
+          </p>
+          <div class="mt-8 p-4 rounded-lg bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-xs text-[#3D3D3A] font-sans">
+            <strong class="text-[#141413] block mb-1 font-sans">FIELD OPERATIONAL DIRECTIVE</strong>
+            Stop pitching product features to operational coaches. Quantify the Cost of Inaction (COI) on the P&L, test your champion with rigorous requests, and map the legal paper process.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED BAND: FULL-WIDTH #141413 BLOCK WITH CENTERED SERIF TITLE & SUBTITLE -->
+  <section class="band-dark py-24 px-6 text-center hairline-b">
+    <div class="max-w-4xl mx-auto">
+      <span class="meta-label text-[#87867F] block mb-4">THE OPERATING PHILOSOPHY</span>
+      <h2 class="font-normal font-serif text-3xl sm:text-5xl text-[#FAF9F5] leading-tight mb-6">
+        "The difference between an average rep and an enterprise elite is not charisma. It is financial literacy, qualification discipline, and deal control."
+      </h2>
+      <p class="lead text-[#B0AEA5] max-w-2xl mx-auto text-lg sm:text-xl font-serif">
+        John McMahon’s Champion Acid Tests &bull; Keenan’s 5 Dimensions of Current State &bull; Dixon & McKenna’s FOMU Diagnostics &bull; Cohan’s Inverted Demo Pyramid
+      </p>
+    </div>
+  </section>
+
+  <!-- RELEASES LIST: ANTHROPIC EXACT RELEASE TABLE (1PX TOP BORDER, 12PX PADDING, MONO LABELS, SANS VALUES) -->
+  <section id="releases" class="py-20 hairline-b bg-[#F0EEE6]">
+    <div class="site-container">
+      <div class="flex items-center justify-between mb-8 pb-3 border-b border-[rgba(20,20,19,0.1)]">
+        <span class="meta-label">CURRICULUM RELEASES & FIELD RESEARCH</span>
+        <span class="meta-value text-xs font-mono text-[#87867F]">UPDATED WEEKLY</span>
+      </div>
+      
+      <div class="releases-table divide-y divide-[rgba(20,20,19,0.1)]">
+        <div class="release-row grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          <div class="md:col-span-2 meta-label text-sm">2026.09.24</div>
+          <div class="md:col-span-3 meta-label text-sm text-[#C6613F]">FINANCIAL ENGINEERING</div>
+          <div class="md:col-span-7 meta-value font-medium text-sm sm:text-base">
+            <a href="#classroom" onclick="loadClassroomLesson(4)" class="hover:underline text-[#141413]">FASB ASC 842 & CRE Accounting: Quantifying Lease Liabilities in CFO Business Cases</a>
+          </div>
+        </div>
+
+        <div class="release-row grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          <div class="md:col-span-2 meta-label text-sm">2026.09.20</div>
+          <div class="md:col-span-3 meta-label text-sm text-[#C6613F]">DISCOVERY MASTERCLASS</div>
+          <div class="md:col-span-7 meta-value font-medium text-sm sm:text-base">
+            <a href="#classroom" onclick="loadClassroomLesson(0)" class="hover:underline text-[#141413]">Keenan's PIC Matrix & The Chicago Loop Law Firm Diagnostic Transcript</a>
+          </div>
+        </div>
+
+        <div class="release-row grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          <div class="md:col-span-2 meta-label text-sm">2026.09.15</div>
+          <div class="md:col-span-3 meta-label text-sm text-[#C6613F]">DEAL QUALIFICATION</div>
+          <div class="md:col-span-7 meta-value font-medium text-sm sm:text-base">
+            <a href="#classroom" onclick="loadClassroomLesson(1)" class="hover:underline text-[#141413]">Snowflake & Datadog MEDDPICC: Paper Process Redline & Legal Procurement Contingencies</a>
+          </div>
+        </div>
+
+        <div class="release-row grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+          <div class="md:col-span-2 meta-label text-sm">2026.09.10</div>
+          <div class="md:col-span-3 meta-label text-sm text-[#C6613F]">CLOSING SCIENCE</div>
+          <div class="md:col-span-7 meta-value font-medium text-sm sm:text-base">
+            <a href="#classroom" onclick="loadClassroomLesson(3)" class="hover:underline text-[#141413]">Dixon & McKenna's 2.5M Call Analysis: Why Buyer FOMU Kills 60% of Enterprise Pipeline</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARD GRID: 24PX/600 SANS TITLES, 18PX SERIF DESCRIPTIONS, OAT (#E3DACC) PANELS -->
+  <section class="section-spacer hairline-b">
+    <div class="site-container">
+      <div class="mb-12">
+        <span class="meta-label">CORE METHODOLOGICAL PILLARS</span>
+        <h2 class="text-3xl sm:text-4xl mt-2 font-bold">The Four Engines of Revenue Command</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- CARD 1: GAP SELLING -->
+        <div class="card-anthropic flex flex-col justify-between">
+          <div>
+            <div class="art-panel h-52 mb-6 flex items-center justify-center p-6 text-center">
+              <svg class="w-full h-full text-[#141413]" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="15" y="20" width="45" height="80" rx="4" stroke="#141413" stroke-width="1.5" fill="#FAF9F5"/>
+                <text x="37" y="65" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle" fill="#87867F">CURRENT</text>
+                <path d="M65 60 H130" stroke="#C6613F" stroke-width="2" stroke-dasharray="3 3"/>
+                <polygon points="130,56 138,60 130,64" fill="#C6613F"/>
+                <rect x="140" y="20" width="45" height="80" rx="4" stroke="#141413" stroke-width="1.5" fill="#FAF9F5"/>
+                <text x="162" y="65" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle" fill="#C6613F">FUTURE</text>
+                <text x="100" y="52" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle" fill="#141413">THE GAP ($)</text>
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl sm:text-2xl">Root-Cause Gap Dissection</h3>
+            <p class="small mt-3">
+              Stop asking shallow questions. Dissect the 5 dimensions of your prospect's reality to expose financial bleed they didn't know existed.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center justify-between">
+            <span class="meta-label text-xs">KEENAN</span>
+            <a href="#classroom" onclick="loadClassroomLesson(0)" class="text-xs font-sans font-semibold text-[#C6613F] hover:underline flex items-center gap-1">Study Unit <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></a>
+          </div>
+        </div>
+
+        <!-- CARD 2: MEDDPICC -->
+        <div class="card-anthropic flex flex-col justify-between">
+          <div>
+            <div class="art-panel h-52 mb-6 flex items-center justify-center p-6 text-center">
+              <svg class="w-full h-full text-[#141413]" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="25" y="15" width="150" height="90" rx="6" stroke="#141413" stroke-width="1.5" fill="#FAF9F5"/>
+                <circle cx="55" cy="45" r="16" stroke="#141413" stroke-width="1.5" fill="#E3DACC"/>
+                <text x="55" y="49" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle" font-weight="bold">EB</text>
+                <circle cx="100" cy="45" r="16" stroke="#C6613F" stroke-width="1.5" fill="#FAECE8"/>
+                <text x="100" y="49" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle" font-weight="bold" fill="#C6613F">C</text>
+                <circle cx="145" cy="45" r="16" stroke="#141413" stroke-width="1.5" fill="#E3DACC"/>
+                <text x="145" y="49" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle" font-weight="bold">PP</text>
+                <rect x="40" y="78" width="120" height="14" rx="3" fill="#141413"/>
+                <text x="100" y="88" font-family="'JetBrains Mono', monospace" font-size="7" text-anchor="middle" fill="#FAF9F5">QUALIFIED / 16 PTS</text>
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl sm:text-2xl">MEDDPICC Deal Control</h3>
+            <p class="small mt-3">
+              Eliminate happy ears. Test your champion with rigorous requests, box out competitors with trap-door criteria, and map the legal paper process.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center justify-between">
+            <span class="meta-label text-xs">JOHN MCMAHON</span>
+            <a href="#toolkit" onclick="switchToolTab('meddpicc')" class="text-xs font-sans font-semibold text-[#C6613F] hover:underline flex items-center gap-1">Deal Auditor <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></a>
+          </div>
+        </div>
+
+        <!-- CARD 3: GREAT DEMO -->
+        <div class="card-anthropic flex flex-col justify-between">
+          <div>
+            <div class="art-panel h-52 mb-6 flex items-center justify-center p-6 text-center">
+              <svg class="w-full h-full text-[#141413]" viewBox="0 0 200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="30,20 170,20 100,105" stroke="#141413" stroke-width="1.5" fill="#FAF9F5"/>
+                <line x1="50" y1="45" x2="150" y2="45" stroke="#C6613F" stroke-width="1.5"/>
+                <line x1="75" y1="75" x2="125" y2="75" stroke="#141413" stroke-width="1.5"/>
+                <text x="100" y="36" font-family="'JetBrains Mono', monospace" font-size="7" text-anchor="middle" fill="#C6613F" font-weight="bold">PAYOFF DASHBOARD</text>
+                <text x="100" y="62" font-family="'JetBrains Mono', monospace" font-size="7" text-anchor="middle" fill="#141413">CORE WORKFLOW</text>
+                <text x="100" y="92" font-family="'JetBrains Mono', monospace" font-size="6" text-anchor="middle" fill="#87867F">FEWEST CLICKS</text>
+              </svg>
+            </div>
+            <h3 class="font-bold text-xl sm:text-2xl">The Inverted Demo Pyramid</h3>
+            <p class="small mt-3">
+              Show the executive payoff screen in minute 3 and adhere strictly to the fewest clicks to value. Never give a harbor tour.
+            </p>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center justify-between">
+            <span class="meta-label text-xs">PETER COHAN</span>
+            <a href="#classroom" onclick="loadClassroomLesson(2)" class="text-xs font-sans font-semibold text-[#C6613F] hover:underline flex items-center gap-1">Study Unit <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CLAUDE SKILLS HUB (GITHUB VIRAL MAGNET) -->
+  <section id="claude-skills" class="section-spacer hairline-b bg-[#FAF9F5]">
+    <div class="site-container">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 pb-6 border-b border-[rgba(20,20,19,0.1)]">
+        <div>
+          <div class="flex items-center gap-2 mb-2">
+            <span class="meta-label text-xs text-[#C6613F] font-semibold">ANTHROPIC CLAUDE SKILLS PACK</span>
+            <span class="text-[10px] font-mono bg-[#141413] text-[#FAF9F5] px-2 py-0.5 rounded">OPEN SOURCE</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-bold text-[#141413]">Production Claude Skills for Enterprise Sales</h2>
+          <p class="small mt-2 max-w-2xl text-[#3D3D3A]">
+            Downloadable, modular <code class="font-mono text-xs bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413]">SKILL.md</code> agent instructions. Inject directly into Claude Projects, Claude Code CLI, Cursor, or your team's internal RevOps agent workflow.
+          </p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a href="https://github.com/lancewc/sales-claude-skills" target="_blank" class="btn btn-secondary text-xs flex items-center gap-1.5">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Star on GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Skill 1 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">DISCOVERY & DIAGNOSTICS</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.2</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">gap-selling-discovery</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              Audits Gong transcripts, ladders down the 3 Whys to root causes, reframes feature traps, and calculates Cost of Inaction (COI) on the P&L.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/gap-selling-discovery/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/gap-selling-discovery/SKILL.md', 'gap-selling-discovery_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/gap-selling-discovery/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">DEAL QUALIFICATION</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.4</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">meddpicc-deal-control</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              16-point deal auditor. Tests true Champions vs. Coaches with 3 acid tests, enforces Economic Buyer alignment, and maps legal/security Paper Processes.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/meddpicc-deal-control/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/meddpicc-deal-control/SKILL.md', 'meddpicc-deal-control_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/meddpicc-deal-control/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">DEMO CHOREOGRAPHY</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.1</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">great-demo-architecture</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              Eliminates harbor tours. Scripts inverted pyramid presentations with executive payoff screens in Minute 3 and strictly ≤3 clicks to value.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/great-demo-architecture/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/great-demo-architecture/SKILL.md', 'great-demo-architecture_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/great-demo-architecture/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">CLOSING SCIENCE</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.3</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">jolt-indecision-resolver</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              Diagnoses buyer FOMU vs. FOMO across 2.5M call data. De-risks stalled deals, limits endless exploration, and scripts concession trades.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/jolt-indecision-resolver/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/jolt-indecision-resolver/SKILL.md', 'jolt-indecision-resolver_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/jolt-indecision-resolver/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skill 5 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">FINANCIAL ENGINEERING</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.0</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">cre-saas-cfo-memo</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              Translates hybrid density into FASB ASC 842 capitalized lease liability reductions, RSF/USF economics, and 1-page boardroom CFO memos.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/cre-saas-cfo-memo/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/cre-saas-cfo-memo/SKILL.md', 'cre-saas-cfo-memo_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/cre-saas-cfo-memo/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Skill 6 -->
+        <div class="card-anthropic flex flex-col justify-between bg-[#F0EEE6]">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="meta-label text-[10px] text-[#C6613F]">OUTBOUND PROSPECTING</span>
+              <span class="text-[9px] font-mono text-[#87867F] bg-[#FAF9F5] px-1.5 py-0.5 rounded border border-[rgba(20,20,19,0.1)]">v1.0</span>
+            </div>
+            <h3 class="text-xl font-bold font-sans text-[#141413]">outbound-provocation</h3>
+            <p class="small text-xs mt-2 text-[#3D3D3A]">
+              Crafts tight, 4-sentence executive provocation emails, cold call pattern interrupts, and law firm managing partner multi-threading battlecards.
+            </p>
+            <div class="mt-4 p-2.5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] text-[11px] font-mono text-[#87867F] truncate">
+              skills/outbound-pipeline-provocation/SKILL.md
+            </div>
+          </div>
+          <div class="mt-6 pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center gap-2">
+            <button onclick="downloadSkillFile('skills/outbound-pipeline-provocation/SKILL.md', 'outbound-provocation_SKILL.md')" class="btn btn-clay text-xs flex-1 flex items-center justify-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Download SKILL.md
+            </button>
+            <button onclick="copySkillContent('skills/outbound-pipeline-provocation/SKILL.md')" class="btn btn-secondary text-xs p-2" title="Copy Skill Prompt">
+              <i data-lucide="copy" class="w-3.5 h-3.5 text-[#C6613F]"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRICULUM SYLLABUS SECTION -->
+  <section id="curriculum" class="py-20 hairline-b bg-[#FAF9F5]">
+    <div class="site-container">
+      <div class="max-w-3xl mb-12">
+        <span class="meta-label text-xs">ACADEMIC FOUNDATION</span>
+        <h2 class="text-3xl sm:text-4xl mt-1 font-bold">The 6-Semester Curriculum Structure</h2>
+        <p class="small mt-2 text-[#3D3D3A]">
+          Six rigorous academic semesters built to turn high-performing BDRs into seasoned enterprise dealmakers and high-ticket RevOps advisors.
+        </p>
+      </div>
+
+      <div class="space-y-4" id="curriculum-container">
+        <!-- Dynamically rendered via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDENT CLASSROOM PORTAL (SELF-STUDY MODE) -->
+  <section id="classroom" class="py-20 hairline-b bg-[#F0EEE6] relative">
+    <div class="site-container">
+      
+      <!-- CLASSROOM HEADER & MASTERY PROGRESS -->
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-8 mb-8 border-b border-[rgba(20,20,19,0.1)]">
+        <div>
+          <span class="meta-label text-xs text-[#C6613F] block mb-1">STUDENT PORTAL \ EXECUTIVE CLASSROOM</span>
+          <h2 class="text-3xl font-bold text-[#141413] tracking-tight sm:text-4xl">The Masterclass Learning Terminal</h2>
+          <p class="small mt-2 max-w-2xl">
+            Step-by-step masterclass texts, unabridged reference textbooks, financial models, discovery scripts, interactive checks, and auto-saving study notes.
+          </p>
+        </div>
+
+        <!-- PROGRESS BAR & STATS -->
+        <div class="bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] p-4 rounded-lg min-w-[280px]">
+          <div class="flex items-center justify-between text-xs mb-2">
+            <span class="meta-label text-[11px]">Curriculum Mastery:</span>
+            <span class="font-bold text-[#C6613F] font-mono" id="classroom-progress-pct">0%</span>
+          </div>
+          <div class="w-full bg-[#E3DACC] rounded-full h-2 overflow-hidden">
+            <div id="classroom-progress-fill" class="bg-[#C6613F] h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+          </div>
+          <div class="flex items-center justify-between text-[11px] font-mono text-[#87867F] mt-2">
+            <span id="classroom-completed-count">0 of 18 Lessons Mastered</span>
+            <button onclick="resetLessonProgress()" class="text-[#87867F] hover:text-[#B91C1C] underline transition-colors">Reset Progress</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAIN CLASSROOM WORKSPACE: SIDEBAR + READER -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- LEFT: SYLLABUS & LESSON SELECTOR DRAWER (4 cols) -->
+        <div class="lg:col-span-4 space-y-4">
+          <div class="bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded-lg p-4">
+            <div class="flex items-center justify-between mb-3 pb-2 border-b border-[rgba(20,20,19,0.1)]">
+              <span class="meta-label text-xs font-bold text-[#141413]">MODULE NAVIGATION</span>
+              <button onclick="exportAllStudentNotes()" class="text-[11px] font-mono text-[#C6613F] hover:underline flex items-center gap-1 font-semibold">
+                <i data-lucide="download" class="w-3 h-3"></i> Export All Notes
+              </button>
+            </div>
+            
+            <div class="space-y-3 max-h-[750px] overflow-y-auto pr-1" id="classroom-syllabus-tree">
+              <!-- Dynamically populated via classroom.js with 5 Textbooks and 18 clickable lessons -->
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: ACTIVE LESSON READER & STUDY LAB (8 cols) -->
+        <div class="lg:col-span-8 bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded-lg p-6 sm:p-10 relative">
+          <div id="active-lesson-container">
+            <!-- Dynamically rendered active lesson content -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- THE INTERACTIVE TOOLKIT SUITE -->
+  <section id="toolkit" class="py-20 bg-[#FAF9F5] hairline-b">
+    <div class="site-container">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="meta-label text-xs block mb-2">INSTRUMENTS \ GTM ENGINEERING</span>
+        <h2 class="text-3xl font-bold text-[#141413] tracking-tight sm:text-4xl">The Enterprise Revenue Engineering Suite</h2>
+        <p class="small mt-3">
+          Four real-time interactive instruments designed for GTM engineers and closing AEs to inspect pipeline, calculate ROI, resolve customer indecision, and generate Mutual Action Plans.
+        </p>
+      </div>
+
+      <!-- TOOL TABS -->
+      <div class="flex items-center justify-center gap-2 mb-8 flex-wrap">
+        <button onclick="switchToolTab('meddpicc')" id="tab-btn-meddpicc" class="tool-tab-btn active flex items-center gap-2">
+          <i data-lucide="check-check" class="w-4 h-4"></i>
+          MEDDPICC Deal Auditor
+        </button>
+        <button onclick="switchToolTab('roi')" id="tab-btn-roi" class="tool-tab-btn flex items-center gap-2">
+          <i data-lucide="calculator" class="w-4 h-4"></i>
+          SaaS & Space ROI Engine
+        </button>
+        <button onclick="switchToolTab('jolt')" id="tab-btn-jolt" class="tool-tab-btn flex items-center gap-2">
+          <i data-lucide="zap" class="w-4 h-4"></i>
+          JOLT Indecision Resolver
+        </button>
+        <button onclick="switchToolTab('map')" id="tab-btn-map" class="tool-tab-btn flex items-center gap-2">
+          <i data-lucide="calendar" class="w-4 h-4"></i>
+          Mutual Action Plan (MAP) Studio
+        </button>
+      </div>
+
+      <!-- TOOL CONTENT WRAPPERS -->
+      <div class="bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)] rounded-lg p-6 sm:p-10">
+
+        <!-- 1. MEDDPICC DEAL AUDITOR -->
+        <div id="tool-pane-meddpicc" class="tool-pane">
+          <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 mb-8 pb-6 border-b border-[rgba(20,20,19,0.1)]">
+            <div>
+              <h3 class="text-2xl font-bold text-[#141413]">MEDDPICC 16-Point Opportunity Diagnostic</h3>
+              <p class="text-xs text-[#87867F] mt-1 font-mono">Snowflake & PTC deal qualification methodology. Score each criteria honestly.</p>
+            </div>
+            <div class="flex items-center gap-4 bg-[#FAF9F5] p-3 rounded border border-[rgba(20,20,19,0.1)]">
+              <div>
+                <span class="meta-label text-[10px] block">TOTAL SCORE</span>
+                <span id="meddpicc-score-display" class="text-2xl font-bold font-mono text-[#141413]">8</span>
+                <span class="text-xs font-mono text-[#87867F]">/ 16</span>
+              </div>
+              <div id="meddpicc-status-badge" class="px-3 py-1.5 rounded text-xs font-mono font-semibold uppercase tracking-wider bg-[#FEF3C7] border border-[#FCD34D] text-[#B45309]">
+                At Risk / Deal Slippage Fluff
+              </div>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="meddpicc-factors-container">
+            <!-- Dynamically populated in app.js -->
+          </div>
+
+          <div class="mt-8 p-5 rounded bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+              <h4 class="text-sm font-bold text-[#141413] flex items-center gap-2" id="meddpicc-prescription-title">
+                <i data-lucide="alert-triangle" class="w-4 h-4 text-[#D97706]"></i>
+                Critical Qualification Gaps
+              </h4>
+              <p class="text-xs text-[#3D3D3A] mt-1" id="meddpicc-prescription-text">
+                Your Champion has not been tested with a hard request. Schedule an alignment session before submitting commercial terms.
+              </p>
+            </div>
+            <button onclick="resetMeddpicc()" class="btn btn-secondary text-xs">
+              Reset Diagnostic
+            </button>
+          </div>
+        </div>
+
+        <!-- 2. SAAS & SPACE ROI ENGINE -->
+        <div id="tool-pane-roi" class="tool-pane hidden">
+          <div class="mb-8 pb-6 border-b border-[rgba(20,20,19,0.1)]">
+            <h3 class="text-2xl font-bold text-[#141413]">SaaS & Space Consolidation Financial Engine</h3>
+            <p class="text-xs text-[#87867F] mt-1 font-mono">Translate hybrid workspace density into hard P&L bottom-line OpEx savings for CFO business cases.</p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            <div class="lg:col-span-6 space-y-6">
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <label class="font-bold text-[#141413]">Corporate Headcount</label>
+                  <span class="font-mono text-[#C6613F] font-bold" id="roi-employees-display">350 Users</span>
+                </div>
+                <input type="range" id="roi-employees" min="50" max="3000" step="25" value="350" class="w-full">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <label class="font-bold text-[#141413]">Total Leased Square Footage (RSF)</label>
+                  <span class="font-mono text-[#C6613F] font-bold" id="roi-sqft-display">45,000 RSF</span>
+                </div>
+                <input type="range" id="roi-sqft" min="5000" max="250000" step="2500" value="45000" class="w-full">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <label class="font-bold text-[#141413]">Annual Lease Cost Per SqFt</label>
+                  <span class="font-mono text-[#C6613F] font-bold" id="roi-cost-display">$48 / sqft</span>
+                </div>
+                <input type="range" id="roi-cost-sqft" min="15" max="150" step="1" value="48" class="w-full">
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs mb-1">
+                  <label class="font-bold text-[#141413]">Projected Space Consolidation / Sublease</label>
+                  <span class="font-mono text-[#C6613F] font-bold" id="roi-reduction-val">20%</span>
+                </div>
+                <input type="range" id="roi-reduction" min="5" max="50" step="5" value="20" class="w-full">
+              </div>
+            </div>
+
+            <div class="lg:col-span-6 bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] p-6 rounded-lg space-y-4">
+              <span class="meta-label text-[11px] block text-[#C6613F]">CFO EXECUTIVE SUMMARY CARD</span>
+              
+              <div class="grid grid-cols-2 gap-4 pt-2">
+                <div class="p-3 rounded bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)]">
+                  <span class="meta-label text-[10px] block">ANNUAL LEASE COMMITMENT</span>
+                  <div class="text-xl font-bold font-mono text-[#141413] mt-1" id="res-current-lease">$2,160,000</div>
+                </div>
+                <div class="p-3 rounded bg-[#FAF9F5] border border-[#86EFAC]">
+                  <span class="meta-label text-[10px] block text-[#15803D]">PROJECTED ANNUAL SAVINGS</span>
+                  <div class="text-xl font-bold font-mono text-[#15803D] mt-1" id="res-annual-savings">$432,000</div>
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4">
+                <div class="p-3 rounded bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)]">
+                  <span class="meta-label text-[10px] block">ESTIMATED SOFTWARE ACV</span>
+                  <div class="text-lg font-bold font-mono text-[#3D3D3A] mt-1" id="res-software-acv">$25,200</div>
+                </div>
+                <div class="p-3 rounded bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)]">
+                  <span class="meta-label text-[10px] block">NET 1ST-YEAR BENEFIT</span>
+                  <div class="text-lg font-bold font-mono text-[#15803D] mt-1" id="res-net-benefit">$406,800</div>
+                </div>
+              </div>
+
+              <div class="pt-4 border-t border-[rgba(20,20,19,0.1)] flex items-center justify-between">
+                <div>
+                  <span class="meta-label text-[10px] block">PROJECTED ROI MULTIPLE</span>
+                  <span class="text-2xl font-bold font-mono text-[#141413]" id="res-roi-multiple">17.1x ROI</span>
+                </div>
+                <div class="text-right">
+                  <span class="meta-label text-[10px] block">PAYBACK PERIOD</span>
+                  <span class="text-sm font-bold font-mono text-[#C6613F]" id="res-payback">21 Days (0.7 mo)</span>
+                </div>
+              </div>
+
+              <button onclick="copyBusinessCase()" class="w-full btn btn-clay text-xs mt-2">
+                <i data-lucide="copy" class="w-3.5 h-3.5 mr-2"></i>
+                Copy 1-Page CFO Business Case
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. JOLT INDECISION RESOLVER -->
+        <div id="tool-pane-jolt" class="tool-pane hidden">
+          <div class="mb-8 pb-6 border-b border-[rgba(20,20,19,0.1)]">
+            <h3 class="text-2xl font-bold text-[#141413]">The JOLT Customer Indecision Matrix</h3>
+            <p class="text-xs text-[#87867F] mt-1 font-mono">Dixon & McKenna's 2.5M call study. Diagnose buyer stall symptoms and execute targeted confidence-building moves.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <button onclick="selectJoltSymptom('overload')" id="jolt-opt-overload" class="jolt-option-card active p-4 text-left border">
+              <span class="meta-label text-[10px] block text-[#C6613F]">SYMPTOM A</span>
+              <h4 class="font-bold text-sm text-[#141413] mt-1">Information Overload</h4>
+              <p class="text-xs text-[#87867F] mt-1">Prospect asks for 3rd demo, more case studies, or edge-case tests.</p>
+            </button>
+
+            <button onclick="selectJoltSymptom('valuation')" id="jolt-opt-valuation" class="jolt-option-card p-4 text-left border">
+              <span class="meta-label text-[10px] block text-[#87867F]">SYMPTOM B</span>
+              <h4 class="font-bold text-sm text-[#141413] mt-1">Valuation Uncertainty</h4>
+              <p class="text-xs text-[#87867F] mt-1">Stalled on package tiers, fearing they are overpaying or buying shelfware.</p>
+            </button>
+
+            <button onclick="selectJoltSymptom('fomu')" id="jolt-opt-fomu" class="jolt-option-card p-4 text-left border">
+              <span class="meta-label text-[10px] block text-[#87867F]">SYMPTOM C</span>
+              <h4 class="font-bold text-sm text-[#141413] mt-1">Career Risk (FOMU)</h4>
+              <p class="text-xs text-[#87867F] mt-1">Champion terrified employees won't adopt, risking internal executive credibility.</p>
+            </button>
+          </div>
+
+          <div class="bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] p-6 rounded-lg">
+            <div class="flex items-center justify-between pb-3 mb-4 border-b border-[rgba(20,20,19,0.1)]">
+              <span class="meta-label text-xs text-[#C6613F]" id="jolt-category-badge">INFORMATION OVERLOAD</span>
+              <span class="text-xs font-mono font-bold uppercase text-[#141413] bg-[#E3DACC] px-2 py-0.5 rounded" id="jolt-move-label">Limit the Exploration</span>
+            </div>
+            
+            <p class="text-xs text-[#3D3D3A] mb-4 font-sans leading-relaxed" id="jolt-diagnosis-text">
+              The prospect is terrified of buying the wrong tool and looking foolish to their executive team. They request more demos not because they need features, but to delay making a binding decision.
+            </p>
+
+            <div class="p-4 rounded bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)] font-mono text-xs text-[#141413] leading-relaxed relative">
+              <span class="meta-label text-[10px] block mb-2 text-[#87867F]">RECOMMENDED TALK-TRACK (VERBATIM):</span>
+              <p id="jolt-script-text">
+                "Sarah, we’ve already validated that the platform solves 95% of your core desk-sharing and real estate reporting requirements. If we keep doing demos for minor edge-cases, we will miss your December lease renewal window. Let's reserve that specific edge-case test for week 2 of your guided onboarding."
+              </p>
+              <button onclick="copyJoltScript()" class="mt-4 btn btn-clay text-xs flex items-center gap-1.5">
+                <i data-lucide="copy" class="w-3.5 h-3.5"></i> Copy Script
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. MUTUAL ACTION PLAN STUDIO -->
+        <div id="tool-pane-map" class="tool-pane hidden">
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8 pb-6 border-b border-[rgba(20,20,19,0.1)]">
+            <div>
+              <h3 class="text-2xl font-bold text-[#141413]">Mutual Action Plan (MAP) Studio</h3>
+              <p class="text-xs text-[#87867F] mt-1 font-mono">Co-authored reverse project timeline establishing accountability between seller and buyer.</p>
+            </div>
+            <button onclick="copyMapPlan()" class="btn btn-clay text-xs flex items-center gap-1.5">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i> Export Plan to Markdown
+            </button>
+          </div>
+
+          <div class="overflow-x-auto bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded-lg">
+            <table class="w-full text-left text-xs font-sans">
+              <thead class="border-b border-[rgba(20,20,19,0.1)] bg-[#F0EEE6]">
+                <tr>
+                  <th class="py-3 px-4 meta-label text-[11px]">Phase</th>
+                  <th class="py-3 px-4 meta-label text-[11px]">Milestone / Deliverable</th>
+                  <th class="py-3 px-4 meta-label text-[11px]">Owner</th>
+                  <th class="py-3 px-4 meta-label text-[11px]">Timeline</th>
+                  <th class="py-3 px-4 meta-label text-[11px]">Status</th>
+                </tr>
+              </thead>
+              <tbody id="map-table-body" class="divide-y divide-[rgba(20,20,19,0.1)]">
+                <!-- Dynamically populated in app.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOARD EXAM & CERTIFICATION -->
+  <section id="certification" class="py-20 hairline-b bg-[#F0EEE6]">
+    <div class="site-container max-w-4xl">
+      <div class="text-center mb-12">
+        <span class="meta-label text-xs block mb-2">ASSESSMENT \ BOARD CERTIFICATION</span>
+        <h2 class="text-3xl font-bold text-[#141413] tracking-tight sm:text-4xl">The Sales MBA Board Examination</h2>
+        <p class="small mt-2">
+          Test your deal diagnosis skills across 5 realistic enterprise scenarios. Score 80%+ to generate your authenticated Certified Enterprise AE credential.
+        </p>
+      </div>
+
+      <div class="bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded-lg p-6 sm:p-10 relative" id="exam-card">
+        
+        <!-- EXAM QUIZ STATE -->
+        <div id="quiz-container">
+          <div class="flex items-center justify-between pb-4 mb-6 border-b border-[rgba(20,20,19,0.1)] text-xs font-mono">
+            <span class="text-[#87867F]" id="quiz-progress-text">Scenario 01 of 05</span>
+            <span class="text-[#C6613F] font-semibold" id="quiz-score-tracker">Score: 0 / 5</span>
+          </div>
+
+          <div id="quiz-question-box">
+            <!-- Rendered in app.js -->
+          </div>
+
+          <div class="mt-8 flex justify-between items-center pt-6 border-t border-[rgba(20,20,19,0.1)]">
+            <button onclick="handlePreviousQuestion()" id="prev-question-btn" class="btn btn-secondary text-xs disabled:opacity-30 disabled:pointer-events-none">
+              Previous
+            </button>
+            <button onclick="handleNextQuestion()" id="next-question-btn" class="btn btn-clay text-xs flex items-center gap-2">
+              <span>Next Scenario</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- CERTIFICATE / RESULTS STATE (HIDDEN INITIALLY) -->
+        <div id="certificate-container" class="hidden text-center py-6">
+          <!-- Populated in app.js when exam completed -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMERCIAL TIERS & ENROLLMENT -->
+  <section id="pricing" class="py-20 bg-[#FAF9F5]">
+    <div class="site-container">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="meta-label text-xs block mb-2">COMMERCIAL DISTRIBUTION \ TUITION</span>
+        <h2 class="text-3xl font-bold text-[#141413] tracking-tight sm:text-4xl">Resellable Training Packages & Tuition</h2>
+        <p class="small mt-3">
+          Package this operating system into high-ticket digital courses, cohort bootcamps, or enterprise enablement licenses.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        
+        <!-- TIER 1 -->
+        <div class="card-anthropic flex flex-col justify-between">
+          <div>
+            <span class="meta-label text-xs text-[#87867F] block mb-2">SELF-PACED MASTERCLASS</span>
+            <div class="text-3xl font-bold text-[#141413] font-serif mb-1">$497</div>
+            <p class="small text-sm mb-6">Lifetime individual access for ambitious BDRs breaking into full-cycle sales.</p>
+            <ul class="space-y-3 text-xs text-[#3D3D3A] font-sans">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> All 5 Masterclass Textbooks</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Complete MEDDPICC Deal Scorecard</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> SaaS ROI Financial Model Calculator</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Certified AE Board Exam & Badge</li>
+            </ul>
+          </div>
+          <button onclick="triggerCheckout('Self-Paced Masterclass', 497)" class="btn btn-secondary text-xs mt-8 w-full">
+            Enroll Individual
+          </button>
+        </div>
+
+        <!-- TIER 2 (FEATURED) -->
+        <div class="card-anthropic flex flex-col justify-between relative border-2 border-[#C6613F]">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded bg-[#C6613F] text-white font-mono text-[10px] font-bold uppercase tracking-wider">
+            Most Popular
+          </div>
+          <div>
+            <span class="meta-label text-xs text-[#C6613F] block mb-2">6-WEEK LIVE COHORT</span>
+            <div class="text-3xl font-bold text-[#141413] font-serif mb-1">$2,497</div>
+            <p class="small text-sm mb-6">Intensive live accelerator with call-tape breakdowns and live mock roleplays.</p>
+            <ul class="space-y-3 text-xs text-[#3D3D3A] font-sans">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#C6613F]"></i> Everything in Self-Paced</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#C6613F]"></i> Weekly 90-min Live Gong Call Teardowns</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#C6613F]"></i> 1-on-1 Capstone Oral Board Simulation</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#C6613F]"></i> Direct LinkedIn AE Referral Network</li>
+            </ul>
+          </div>
+          <button onclick="triggerCheckout('6-Week Live Cohort', 2497)" class="btn btn-clay text-xs mt-8 w-full">
+            Apply for Cohort
+          </button>
+        </div>
+
+        <!-- TIER 3 -->
+        <div class="card-anthropic flex flex-col justify-between">
+          <div>
+            <span class="meta-label text-xs text-[#87867F] block mb-2">ENTERPRISE TEAM LICENSE</span>
+            <div class="text-3xl font-bold text-[#141413] font-serif mb-1">$14,997</div>
+            <p class="small text-sm mb-6">For VPs of Sales and Enablement looking to turn their SDR bench into closers.</p>
+            <ul class="space-y-3 text-xs text-[#3D3D3A] font-sans">
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Up to 10 Rep Seats Included</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Custom MEDDPICC Criteria for Your ICP</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Great Demo! Flow for Your Exact UI</li>
+              <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-[#15803D]"></i> Executive RevOps Dashboard Tracking</li>
+            </ul>
+          </div>
+          <button onclick="triggerCheckout('Enterprise Team License', 14997)" class="btn btn-secondary text-xs mt-8 w-full">
+            Book Team Pilot
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (EXACT ANTHROPIC #141413 BACKGROUND, 12PX SANS LINKS IN #B0AEA5) -->
+  <footer class="py-12 border-t border-[rgba(255,255,255,0.08)] bg-[#141413] text-[#B0AEA5] text-xs font-sans">
+    <div class="max-w-[1277px] mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-6 h-6 rounded bg-[#FAF9F5] flex items-center justify-center font-bold text-[#141413] text-xs">Ψ</div>
+        <span class="font-bold text-[#FAF9F5] font-sans text-sm">THE SALES MBA</span>
+        <span class="text-[#87867F]">© 2026. The Enterprise Sales Operating System.</span>
+      </div>
+      <div class="flex items-center gap-6 text-xs">
+        <a href="#curriculum" class="hover:text-[#FAF9F5] transition-colors">Curriculum</a>
+        <a href="#classroom" class="hover:text-[#FAF9F5] transition-colors">Classroom</a>
+        <a href="#releases" class="hover:text-[#FAF9F5] transition-colors">Releases</a>
+        <a href="#toolkit" class="hover:text-[#FAF9F5] transition-colors">Instruments</a>
+        <a href="#certification" class="hover:text-[#FAF9F5] transition-colors">Board Exam</a>
+        <a href="#pricing" class="hover:text-[#FAF9F5] transition-colors">Tuition</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CHECKOUT SIMULATOR MODAL -->
+  <div id="checkout-modal" class="fixed inset-0 z-50 bg-[#141413]/70 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded-lg max-w-md w-full p-6 shadow-xl relative">
+      <button onclick="closeCheckoutModal()" class="absolute top-4 right-4 text-[#87867F] hover:text-[#141413]">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+      <div class="text-center mb-6">
+        <div class="w-12 h-12 rounded bg-[#E3DACC] text-[#C6613F] flex items-center justify-center mx-auto mb-3">
+          <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#141413] font-sans" id="modal-tier-title">Enroll in The Sales MBA</h3>
+        <p class="text-xs text-[#87867F] mt-1 font-mono" id="modal-tier-price">$497 USD</p>
+      </div>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-[#141413] mb-1 font-sans">Your Full Name</label>
+          <input type="text" id="checkout-name" placeholder="Lance Smith" class="w-full bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded px-3 py-2 text-sm text-[#141413] focus:outline-none focus:border-[#C6613F]">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-[#141413] mb-1 font-sans">Work Email</label>
+          <input type="email" id="checkout-email" placeholder="lance@maptician.com" class="w-full bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded px-3 py-2 text-sm text-[#141413] focus:outline-none focus:border-[#C6613F]">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-[#141413] mb-1 font-sans">Current Company & Role</label>
+          <input type="text" id="checkout-role" placeholder="Maptician - Enterprise BDR" class="w-full bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)] rounded px-3 py-2 text-sm text-[#141413] focus:outline-none focus:border-[#C6613F]">
+        </div>
+
+        <button onclick="completeSimulatedCheckout()" class="w-full btn btn-clay text-xs mt-2">
+          <i data-lucide="lock" class="w-3.5 h-3.5 mr-2"></i>
+          Complete Instant Enrollment
+        </button>
+        <p class="text-[10px] text-center text-[#87867F] font-mono">Simulation mode: Instant sandbox unlock.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 px-4 py-3 rounded bg-[#141413] border border-[#3D3D3A] text-xs text-[#FAF9F5] shadow-xl flex items-center gap-2">
+    <i data-lucide="check" class="w-4 h-4 text-[#86EFAC]"></i>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <script src="classroom.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
