@@ -38,9 +38,9 @@ Every enterprise dollar spent must be categorized according to Financial Account
 - **Executive Psychology:** CapEx requires massive upfront cash, ties up borrowing lines, and undergoes intense board scrutiny. Companies want to minimize CapEx whenever possible to preserve liquidity.
 
 ### 2. Operating Expenses (OpEx)
-- **Accounting Treatment:** OpEx represents the recurring expenses necessary to operate the business day-to-day. Cloud-based Software-as-a-Service (SaaS), such as Maptician, is categorized as OpEx. 
+- **Accounting Treatment:** OpEx represents the recurring expenses necessary to operate the business day-to-day. Cloud-based Software-as-a-Service (SaaS), such as [Your Product], is categorized as OpEx. 
 - **The Tax Shield Advantage:** OpEx directly reduces taxable operating income in the exact year it is incurred. If a company earns $10,000,000 in revenue and incurs $7,000,000 in OpEx, they are only taxed on the remaining $3,000,000 operating profit.
-- **The Account Executive Advantage:** When selling Maptician, an elite AE does not position the purchase as "new incremental spend." Instead, the AE positions the software as **an OpEx optimization tool that cannibalizes a drastically larger, bloated OpEx liability: the commercial real estate lease**.
+- **The Account Executive Advantage:** When selling [Your Product], an elite AE does not position the purchase as "new incremental spend." Instead, the AE positions the software as **an OpEx optimization tool that cannibalizes a drastically larger, bloated OpEx liability: the commercial real estate lease**.
 
 ---
 
@@ -62,10 +62,10 @@ Valuation multiples range from **8x to 25x** depending on the industry, revenue 
 │ Scenario: 800-Person Enterprise, 60,000 sq ft office footprint         │
 │ Annual Lease Liability: $2,400,000 ($40/sq ft/yr)                      │
 │ Spatial Waste / Ghost Occupancy: 25% (15,000 unutilized sq ft)        │
-│ Software Investment (Maptician): $40,000 ACV                           │
+│ Software Investment ([Your Product]): $40,000 ACV                           │
 ├────────────────────────────────────────────────────────────────────────┤
 │ STEP 1: Eliminate 15,000 sq ft of excess lease = $600,000/yr saved     │
-│ STEP 2: Subtract Maptician annual software fee = -$40,000/yr           │
+│ STEP 2: Subtract [Your Product] annual software fee = -$40,000/yr           │
 │ STEP 3: Net Annual EBITDA Expansion = +$560,000                        │
 ├────────────────────────────────────────────────────────────────────────┤
 │ ENTERPRISE VALUATION IMPACT AT DIFFERENT MULTIPLES:                    │
@@ -87,30 +87,30 @@ Free Cash Flow represents the cash a company produces through its operations, mi
 2. **CapEx Tenant Improvements (TI):** Over-building dedicated offices and permanent cubicles incurs massive non-recoverable construction costs.
 3. **Ghost Space Operating Expenses:** Empty square footage still incurs HVAC heating, janitorial fees, electricity, and security patrol costs.
 
-By introducing flexible desk sharing and automated neighborhood clustering, Maptician unleashes trapped cash flow within 90 days.
+By introducing flexible desk sharing and automated neighborhood clustering, [Your Product] unleashes trapped cash flow within 90 days.
 
 ---
 
 ## CHAPTER 4: GONG CALL TRANSCRIPT BREAKDOWN
-*Context: AE Lance in a scheduled commercial discovery session with Dan (CFO) and Laura (VP of Facilities) at an 850-person enterprise software company.*
+*Context: AE [Your Name] in a scheduled commercial discovery session with Dan (CFO) and Laura (VP of Facilities) at an 850-person enterprise software company.*
 
-> **Dan (CFO):** "Thanks for jumping on, Lance. Laura asked me to join because she's excited about your floor plan tool. But I have to be candid with you up front: we announced an executive expense freeze last month. We aren't approving new SaaS licenses unless they are mission-critical for engineering or direct revenue."
+> **Dan (CFO):** "Thanks for jumping on, [Your Name]. Laura asked me to join because she's excited about your floor plan tool. But I have to be candid with you up front: we announced an executive expense freeze last month. We aren't approving new SaaS licenses unless they are mission-critical for engineering or direct revenue."
 >
-> **Lance (AE):** "Dan, I appreciate the transparency. If I were in your chair managing cash reserves in this macro climate, I would have the exact same mandate. So let's establish something right away: if this conversation is about buying a floor plan tool for desk convenience, we should cancel the meeting right now and Laura can keep using spreadsheets."
+> **[Your Name] (AE):** "Dan, I appreciate the transparency. If I were in your chair managing cash reserves in this macro climate, I would have the exact same mandate. So let's establish something right away: if this conversation is about buying a floor plan tool for desk convenience, we should cancel the meeting right now and Laura can keep using spreadsheets."
 >
 > **Dan (CFO):** *(Chuckles)* "Fair enough. What is this about then?"
 >
-> **Lance (AE):** "This is about the fact that your real estate footprint is your second-largest line-item expense behind payroll. Dan, Laura mentioned you have 70,000 square feet under lease across Atlanta and Chicago expiring over the next 18 months, currently costing about $2.8 million annually. From our preliminary telemetry, your average mid-week badge swipe rate is sitting around 38%. Does your executive committee have verifiable data showing which departments are actually occupying those desks, or are you preparing to renew that $2.8M lease on guesswork?"
+> **[Your Name] (AE):** "This is about the fact that your real estate footprint is your second-largest line-item expense behind payroll. Dan, Laura mentioned you have 70,000 square feet under lease across Atlanta and Chicago expiring over the next 18 months, currently costing about $2.8 million annually. From our preliminary telemetry, your average mid-week badge swipe rate is sitting around 38%. Does your executive committee have verifiable data showing which departments are actually occupying those desks, or are you preparing to renew that $2.8M lease on guesswork?"
 >
 > **Dan (CFO):** "We look at badge swipes at the turnstile, but we have no idea who is sitting where once they get through the door. Facilities says marketing wants their own wing, while sales is basically remote."
 >
-> **Lance (AE):** "That gap between turnstile badges and actual seat utilization is costing you approximately $650,000 a year in ghost space. Our platform doesn't ask for a new budget line. We deploy spatial sensors and desk reservation telemetry that gives you the hard utilization audit required to consolidate 18,000 square feet prior to lease renewal. We cost $35k. The lease reduction yields $600k straight back onto your P&L as EBITDA. At your company’s valuation multiple, that’s $6 million in enterprise value. Dan, does it make sense to explore that math?"
+> **[Your Name] (AE):** "That gap between turnstile badges and actual seat utilization is costing you approximately $650,000 a year in ghost space. Our platform doesn't ask for a new budget line. We deploy spatial sensors and desk reservation telemetry that gives you the hard utilization audit required to consolidate 18,000 square feet prior to lease renewal. We cost $35k. The lease reduction yields $600k straight back onto your P&L as EBITDA. At your company’s valuation multiple, that’s $6 million in enterprise value. Dan, does it make sense to explore that math?"
 >
-> **Dan (CFO):** "Yes. Laura, show Lance our current floor plans and lease expiration dates."
+> **Dan (CFO):** "Yes. Laura, show [Your Name] our current floor plans and lease expiration dates."
 
 ### Transcript Deconstruction:
-1. **The Tactical Disqualification (Minute 1):** Lance immediately agrees with the budget freeze and refuses to defend "convenience features." This establishes peer-level executive stature.
-2. **Re-anchoring to the Balance Sheet:** Lance moves the conversation from a $35,000 software decision to a $2.8 million lease liability.
+1. **The Tactical Disqualification (Minute 1):** [Your Name] immediately agrees with the budget freeze and refuses to defend "convenience features." This establishes peer-level executive stature.
+2. **Re-anchoring to the Balance Sheet:** [Your Name] moves the conversation from a $35,000 software decision to a $2.8 million lease liability.
 3. **The Math of EBITDA Expansion:** The software is framed as a self-funding margin expansion play.
 
 ---
@@ -134,7 +134,7 @@ By introducing flexible desk sharing and automated neighborhood clustering, Mapt
 A prospective client has 500 employees across a 40,000 sq ft office in Chicago paying $45/sq ft/year. They currently maintain a 1:1 desk-to-employee ratio.
 1. Calculate their annual lease liability.
 2. If implementing a 1.6:1 desk-sharing ratio reduces needed space by 30%, calculate the annual lease savings.
-3. If Maptician costs $28,000/year, calculate the net annual EBITDA expansion.
+3. If [Your Product] costs $28,000/year, calculate the net annual EBITDA expansion.
 4. Calculate the enterprise valuation increase assuming a 12x EBITDA multiple.
 
 *Answer Key:*

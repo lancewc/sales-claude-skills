@@ -23,7 +23,7 @@ For every workflow you present during a demo, follow the **4-Part Delta Arc**:
    "Sarah, on Tuesday you told me that every Monday morning, your facilities team spends 3 hours manually re-keying seating charts in Excel..."
 
 2. DEMONSTRATE THE DELTA ACTION:
-   "Watch what happens when an associate changes their schedule in Maptician: one click dynamically re-allocates the entire engineering neighborhood..."
+   "Watch what happens when an associate changes their schedule in [Your Product]: one click dynamically re-allocates the entire engineering neighborhood..."
 
 3. QUANTIFY THE BUSINESS VALUE:
    "Those 3 hours of manual re-keying are completely eliminated—saving 150 hours of facilities labor every year..."

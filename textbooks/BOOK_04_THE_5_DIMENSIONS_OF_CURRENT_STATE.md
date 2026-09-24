@@ -69,25 +69,25 @@ Enterprise purchases are justified with logic, but initiated by emotion:
 ---
 
 ## CHAPTER 2: GONG CALL TRANSCRIPT: DISSECTING CURRENT STATE
-*Context: AE Lance interviewing Greg, Senior Director of Real Estate at an AmLaw 100 Law Firm in Chicago.*
+*Context: AE [Your Name] interviewing Greg, Senior Director of Real Estate at an AmLaw 100 Law Firm in Chicago.*
 
-> **Lance (AE):** "Greg, to understand whether we can even help you, walk me through how your 450 partners and associates interact with your three floors on Michigan Avenue today."
+> **[Your Name] (AE):** "Greg, to understand whether we can even help you, walk me through how your 450 partners and associates interact with your three floors on Michigan Avenue today."
 >
 > **Greg (Director):** "Well, right now partners have dedicated corner offices, but associates are supposed to share cubicles. People use an Excel spreadsheet on SharePoint to claim desks, but nobody updates it. It's a bit chaotic on Tuesdays."
 >
-> **Lance (AE):** "When you say 'it's a bit chaotic,' what does that actually mean when an associate walks through the turnstile on Tuesday morning?" *(Probing Dimension 1 & 3)*
+> **[Your Name] (AE):** "When you say 'it's a bit chaotic,' what does that actually mean when an associate walks through the turnstile on Tuesday morning?" *(Probing Dimension 1 & 3)*
 >
 > **Greg (Director):** "Associates show up, find out someone else took the desk they put on Excel, and they end up sitting in the cafeteria or going home angry. Then the managing partner calls me asking why his litigation team isn't sitting together."
 >
-> **Lance (AE):** "Understood. When the managing partner calls you angry about his team, how often is that happening, and how much of your day does resolving that absorb?" *(Probing Dimension 3 & 5)*
+> **[Your Name] (AE):** "Understood. When the managing partner calls you angry about his team, how often is that happening, and how much of your day does resolving that absorb?" *(Probing Dimension 3 & 5)*
 >
 > **Greg (Director):** "At least twice a week. I'm spending 6 to 8 hours a week playing referee instead of managing our lease renewals."
 >
-> **Lance (AE):** "And while you're refereeing seating charts, your lease on the 14th floor is up for renewal in 9 months. What is that 14th floor costing the partnership annually?" *(Probing Dimension 4)*
+> **[Your Name] (AE):** "And while you're refereeing seating charts, your lease on the 14th floor is up for renewal in 9 months. What is that 14th floor costing the partnership annually?" *(Probing Dimension 4)*
 >
 > **Greg (Director):** "That floor is $920,000 a year."
 >
-> **Lance (AE):** "So right now, you are spending $920k on a floor where half the desks sit empty on Mondays and Fridays, associates are fighting over seats on Tuesdays, and you're spending a full working day every week refereeing Slack complaints. Is that an accurate picture of where things stand?"
+> **[Your Name] (AE):** "So right now, you are spending $920k on a floor where half the desks sit empty on Mondays and Fridays, associates are fighting over seats on Tuesdays, and you're spending a full working day every week refereeing Slack complaints. Is that an accurate picture of where things stand?"
 >
 > **Greg (Director):** "When you summarize it like that, it sounds insane. Yes, that is exactly where we are."
 

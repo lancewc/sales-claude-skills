@@ -33,9 +33,9 @@ THE INVERTED PYRAMID (WINNING):
 ---
 
 ## CHAPTER 2: GONG DEMO SCRIPT: THE MINUTE-3 PAYOFF
-*Context: AE Lance presenting Maptician to the VP of Real Estate and Chief Operating Officer.*
+*Context: AE [Your Name] presenting [Your Product] to the VP of Real Estate and Chief Operating Officer.*
 
-> **Lance (AE):** *(Sharing screen directly to Maptician's Executive Space Optimization Dashboard)*
+> **[Your Name] (AE):** *(Sharing screen directly to [Your Product]'s Executive Space Optimization Dashboard)*
 > "Laura, Marcus, thank you for joining. In our discovery call with Laura on Tuesday, she shared that your company is currently spending $2.4M annually across 55,000 square feet in Chicago, and your biggest headache is having zero visibility into which departments are actually occupying desks on Tuesdays versus Fridays.
 > Rather than walking you through how to configure account settings, I want to show you the end result first.
 > What you are looking at right now on my screen is the **Executive Spatial Portfolio Audit**.
@@ -46,7 +46,7 @@ THE INVERTED PYRAMID (WINNING):
 >
 > **Marcus (COO):** "That would completely change our leverage with the landlord. We wouldn't renew the full floor. But how do you get this data? How hard is it for employees to log their seats?"
 >
-> **Lance (AE):** "Great question. Let me show you the exact two clicks an employee takes to reserve a neighborhood desk."
+> **[Your Name] (AE):** "Great question. Let me show you the exact two clicks an employee takes to reserve a neighborhood desk."
 
 ### Why This Closed the Deal:
 - **Instant Dopamine:** In under 180 seconds, the COO saw a $600,000 solution to his business problem.

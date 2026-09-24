@@ -61,11 +61,11 @@ When pitching to enterprise CFOs, top AEs align software purchases with their cu
 ---
 
 ## CHAPTER 3: GONG TRANSCRIPT BREAKDOWN: ALIGNING WITH SAAS EXECUTIVES
-*Context: AE Lance speaking with the VP of Operations at an enterprise SaaS company evaluating Maptician for their hybrid transition.*
+*Context: AE [Your Name] speaking with the VP of Operations at an enterprise SaaS company evaluating [Your Product] for their hybrid transition.*
 
 > **Prospect:** "We want to roll this out to 300 users, but we want a month-to-month contract so we can cancel if our employees don't use the desks."
 >
-> **Lance (AE):** "I understand the desire for flexibility. Let's look at this from a unit economics perspective. When our engineering and onboarding teams deploy Maptician, we ingest your CAD floor plans, build your SAML SSO identity sync, and configure IoT presence beacons. Our fully loaded implementation cost on this tenant is approximately $8,000 upfront. 
+> **[Your Name] (AE):** "I understand the desire for flexibility. Let's look at this from a unit economics perspective. When our engineering and onboarding teams deploy [Your Product], we ingest your CAD floor plans, build your SAML SSO identity sync, and configure IoT presence beacons. Our fully loaded implementation cost on this tenant is approximately $8,000 upfront. 
 > If we did month-to-month billing, we would have to price the monthly license at a 40% premium to amortize onboarding risk and maintain gross margin integrity. More importantly, hybrid adoption takes 60 to 90 days of change management. If we evaluate this on Day 30 before team neighborhoods are settled, you'll cancel right before the real estate savings materialize. That's why enterprise clients enter an annual partnership with milestone checkpoints at 30, 60, and 90 days. Does that structure make sense?"
 >
 > **Prospect:** "When you break down the implementation cost, that makes complete sense. Let's look at the annual agreement."

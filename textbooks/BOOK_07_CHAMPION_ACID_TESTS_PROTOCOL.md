@@ -60,21 +60,21 @@ Assign a task that requires them to do work internally between calls:
 ---
 
 ## CHAPTER 3: GONG TRANSCRIPT: TESTING A POTENTIAL CHAMPION
-*Context: AE Lance speaking with Kevin, Director of Real Estate Operations at a multinational logistics firm.*
+*Context: AE [Your Name] speaking with Kevin, Director of Real Estate Operations at a multinational logistics firm.*
 
-> **Lance (AE):** "Kevin, your feedback on the demo has been fantastic. You mentioned that our platform can help you save $450,000 on your upcoming Dallas lease renewal. Who on your executive committee will ultimately sign off on allocating budget for this?"
+> **[Your Name] (AE):** "Kevin, your feedback on the demo has been fantastic. You mentioned that our platform can help you save $450,000 on your upcoming Dallas lease renewal. Who on your executive committee will ultimately sign off on allocating budget for this?"
 >
 > **Kevin (Director):** "That would be our Chief Operating Officer, Marcus. He oversees all regional real estate."
 >
-> **Lance (AE):** "Great. Kevin, here is what typically happens in deals of this size: if you walk into Marcus's office alone with a software quote, he is going to view this as a discretionary operational tool and ask you why facilities can't just manage this in Excel. Let's do this: you and I will co-author a 1-page financial business case showing how this returns $450,000 in EBITDA. Once we finish it, let's schedule a 20-minute briefing with Marcus where you lead the meeting and I support you with the technical backup. Can you set up that session for next week?"
+> **[Your Name] (AE):** "Great. Kevin, here is what typically happens in deals of this size: if you walk into Marcus's office alone with a software quote, he is going to view this as a discretionary operational tool and ask you why facilities can't just manage this in Excel. Let's do this: you and I will co-author a 1-page financial business case showing how this returns $450,000 in EBITDA. Once we finish it, let's schedule a 20-minute briefing with Marcus where you lead the meeting and I support you with the technical backup. Can you set up that session for next week?"
 >
 > **Kevin (Director):** "Well... Marcus is pretty intimidating. I think it's better if I just mention it to him casually at our one-on-one next month."
 >
-> **Lance (AE):** "Kevin, let me ask you directly: if Marcus looks at your budget and decides to renew the Dallas lease as-is without any optimization, what does that mean for your space restructuring targets this year?"
+> **[Your Name] (AE):** "Kevin, let me ask you directly: if Marcus looks at your budget and decides to renew the Dallas lease as-is without any optimization, what does that mean for your space restructuring targets this year?"
 >
 > **Kevin (Director):** "Honestly? It ruins my performance review. I promised the executive team I would find 15% in lease savings by Q4. If I don't hit that, my annual bonus is toast."
 >
-> **Lance (AE):** "Then your bonus is on the line. Let's make sure Marcus sees that you have already built the complete engineering and financial solution to hit that 15% target. Let's write the 1-page memo together tomorrow morning, and then we will approach Marcus as a united front. Deal?"
+> **[Your Name] (AE):** "Then your bonus is on the line. Let's make sure Marcus sees that you have already built the complete engineering and financial solution to hit that 15% target. Let's write the 1-page memo together tomorrow morning, and then we will approach Marcus as a united front. Deal?"
 >
 > **Kevin (Director):** "You're right. Let's do it tomorrow at 9 AM."
 

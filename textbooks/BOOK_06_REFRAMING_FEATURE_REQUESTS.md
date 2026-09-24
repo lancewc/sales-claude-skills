@@ -44,7 +44,7 @@ Top 1% Account Executives never answer a feature request with a simple yes. They
 ## CHAPTER 2: VERBATIM FEATURE REFRAMING PLAYBOOK
 
 ### Case 1: The Mobile App Request
-- **Prospect:** *"Does Maptician have an iOS and Android mobile app?"*
+- **Prospect:** *"Does [Your Product] have an iOS and Android mobile app?"*
 - **Rookie Rep:** *"Yes! It's rated 4.9 stars on the App Store! Let me show you screenshots!"*
 - **Elite AE Reframe:**
   > *"Yes, we support both iOS and native Android apps with single-sign-on. But tell me: when your team evaluated the mobile experience, what specific friction were employees encountering in your current setup that made mobile an essential requirement?"*

@@ -34,16 +34,16 @@ $$\text{COI (Monthly)} = \left( \text{Vacant Sq Ft} \times \text{Cost per Sq Ft 
 
 If an enterprise has 20,000 vacant square feet at $45/sq ft/year:
 $$\text{Direct Rent Leak} = \frac{20,000 \times \$45}{12} = \$75,000 / \text{month}$$
-Every 30 days the executive team delays signing Maptician, they burn **$75,000 in cash** that can never be recovered.
+Every 30 days the executive team delays signing [Your Product], they burn **$75,000 in cash** that can never be recovered.
 
 ---
 
 ## CHAPTER 2: GONG CALL TEARDOWN: CREATING EXECUTIVE URGENCY
-*Context: AE Lance reviewing Q4 timeline with Sarah (VP of Workplace) and Mark (Corporate Controller).*
+*Context: AE [Your Name] reviewing Q4 timeline with Sarah (VP of Workplace) and Mark (Corporate Controller).*
 
 > **Mark (Controller):** "We agree with the concept, but we have a lot on our plate. Let's push this project to Q2 of next year."
 >
-> **Lance (AE):** "Mark, pushing to Q2 is certainly an option. But as a finance leader, you track cash burn closely. Let's quantify what pushing 6 months actually costs your company. Right now, your Denver office has 250 desks, with an average daily peak occupancy of 82 people. You are paying $38 per square foot on 35,000 square feet, which works out to $110,833 every single month.
+> **[Your Name] (AE):** "Mark, pushing to Q2 is certainly an option. But as a finance leader, you track cash burn closely. Let's quantify what pushing 6 months actually costs your company. Right now, your Denver office has 250 desks, with an average daily peak occupancy of 82 people. You are paying $38 per square foot on 35,000 square feet, which works out to $110,833 every single month.
 > By delaying this decision from October to April, you will disburse $665,000 in lease checks for space that nobody is using. Our software costs $28,000. 
 > Mark, is putting $665,000 into landlord pockets worth delaying an evaluation that takes our team 10 days to pilot?"
 >
@@ -70,7 +70,7 @@ DATE: September 2026
    • Cumulative Cost of a 90-Day Delay: $220,000
    • Upcoming Lease Decision Window: Break clause expires March 31st
 
-3. THE PROPOSED SOLUTION (MAPTICIAN):
+3. THE PROPOSED SOLUTION (YOUR PRODUCT):
    • Implementation Timeline: 21 days
    • Investment: $32,000 ACV
    • Projected Real Estate OpEx Reduction: $440,000 / year

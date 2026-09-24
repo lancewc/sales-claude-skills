@@ -24,14 +24,14 @@ This volume provides the blueprint for ghost-writing the customer's **Decision C
 │ • Mobile native apps, CAD ingest │ • Implementation time (<3 weeks)    │
 ├──────────────────────────────────┴─────────────────────────────────────┤
 │ 3. TRAP-SETTING (SNOWFLAKE) CRITERIA                                   │
-│ • Proprietary capabilities unique to Maptician that competitors lack   │
+│ • Proprietary capabilities unique to [Your Product] that competitors lack   │
 │ • Dynamic, real-time spatial CAD re-rendering without third-party fees│
 │ • Integrated sensor-less occupancy algorithms                          │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### How to Set a Trap-Door Criterion:
-During discovery, identify a unique capability of Maptician that competitors cannot easily match, and tie it to severe financial risk:
+During discovery, identify a unique capability of [Your Product] that competitors cannot easily match, and tie it to severe financial risk:
 > *"Sarah, when you evaluate vendors, make sure you require that floor plan changes can be re-rendered in real-time by your facilities team directly. Some legacy platforms charge $1,500 per floor plan change and require a 3-week CAD outsourcing cycle. If you restructure seating quarterly across 5 floors, that’s $30,000 in hidden fees and a month of delay every single time."*
 
 ---

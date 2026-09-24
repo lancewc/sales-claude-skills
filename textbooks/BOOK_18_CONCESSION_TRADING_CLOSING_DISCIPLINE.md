@@ -6,7 +6,7 @@
 
 ## EXECUTIVE PREFACE: THE CARDINAL RULE OF NEGOTIATION
 In enterprise procurement, buyers are trained to demand discounts at the one-yard line:
-> *"We want to go with Maptician, but our budget committee requires an across-the-board 20% discount before we can execute the agreement."*
+> *"We want to go with [Your Product], but our budget committee requires an across-the-board 20% discount before we can execute the agreement."*
 
 Amateur sales reps immediately fold. They say: *"Let me ask my VP if we can discount."* By discounting unilaterally, the rep sends two destructive signals:
 1. **Our software was overpriced to begin with.**
