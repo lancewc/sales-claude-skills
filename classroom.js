@@ -903,7 +903,7 @@ function renderClassroomSyllabus() {
     <div class="mb-5 p-3 rounded-lg bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)]">
       <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[#C6613F] mb-2 flex items-center justify-between">
         <span class="flex items-center gap-1.5"><i data-lucide="book" class="w-3.5 h-3.5"></i> Masterclass Textbooks</span>
-        <span class="text-[9px] bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413] font-mono font-bold">5 VOLUMES</span>
+        <span class="text-[9px] bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413] font-mono font-bold">6 VOLUMES</span>
       </div>
       <div class="space-y-1">
         <button onclick="loadTextbook('01_GAP_SELLING_MASTERCLASS.md', 'Volume 1: Keenan\\'s GAP Selling Masterclass')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
@@ -924,6 +924,10 @@ function renderClassroomSyllabus() {
         </button>
         <button onclick="loadTextbook('05_COMMERCIAL_REAL_ESTATE_AND_SAAS_FINANCE.md', 'Volume 5: CRE Economics & SaaS Finance')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
           <span class="truncate font-medium">Vol 5: CRE & SaaS Finance</span>
+          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
+        </button>
+        <button onclick="loadTextbook('06_ENTERPRISE_MULTITHREADING_AND_MAPS.md', 'Volume 6: Enterprise Multi-Threading & Mutual Action Plans (MAPs)')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
+          <span class="truncate font-medium">Vol 6: Multi-Threading & MAPs</span>
           <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
         </button>
       </div>

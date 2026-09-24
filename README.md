@@ -78,7 +78,7 @@ This repository includes a standalone web app styled to **Anthropic's exact comp
 
 ### Included Web Instruments:
 - 🎓 **18-Module Interactive Classroom** with real-time markdown note-taking.
-- 📚 **5 Unabridged Reference Textbooks** readable and downloadable directly in-browser.
+- 📚 **6 Unabridged Reference Textbooks** readable and downloadable directly in-browser.
 - ⚖️ **16-Point Interactive MEDDPICC Deal Auditor** with live triage prescriptions.
 - 📐 **SaaS & Space Consolidation ROI Engine** computing payback in days and exporting 1-page CFO memos.
 - ⚡ **JOLT Customer Indecision Resolver** with verbatim objection scripts.
