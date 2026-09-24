@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 4: THE JOLT EFFECT CLOSING MANUAL
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 4: THE JOLT EFFECT CLOSING MANUAL
 ### *Matt Dixon & Ted McKenna: Conquering Customer Indecision & FOMU*
 
 ---
@@ -251,4 +251,4 @@ Notice what this script does:
 * **Exercise:** Draft a 4-sentence email trading that discount for an annual upfront payment and a multi-year commitment while preserving pricing integrity.
 
 ---
-*End of Volume 4. Proceed to Volume 5: Commercial Real Estate Economics & Corporate SaaS Finance.*
+*End of Reference Manual 4. Proceed to Reference Manual 5: Commercial Real Estate Economics & Corporate SaaS Finance.*

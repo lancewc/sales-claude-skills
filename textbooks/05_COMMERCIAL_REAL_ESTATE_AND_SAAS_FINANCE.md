@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 5: COMMERCIAL REAL ESTATE ECONOMICS & SAAS FINANCE
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 5: COMMERCIAL REAL ESTATE ECONOMICS & SAAS FINANCE
 ### *The Corporate Balance Sheet, ASC 842 & The Financial Engineering of Space*
 
 ---
@@ -233,4 +233,4 @@ Approve execution of the [Your Product] order form (\$36,000) to initiate data o
 ```
 
 ---
-*End of Volume 5. The complete Sales MBA Textbook Series is now finalized.*
+*End of Reference Manual 5. Proceed to Reference Manual 6: Enterprise Multi-Threading & Mutual Action Plan Choreography.*

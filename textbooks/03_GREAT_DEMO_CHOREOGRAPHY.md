@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 3: PETER COHAN'S GREAT DEMO! CHOREOGRAPHY
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 3: PETER COHAN'S GREAT DEMO! CHOREOGRAPHY
 ### *Inverted Pyramid Demonstrations & The Fewest Clicks to Value*
 
 ---
@@ -118,7 +118,7 @@ You just stalled a \$50,000 real estate deal over an irrelevant parking feature 
 ---
 
 ## CHAPTER 5: HOW TO HANDLE QUESTIONS DURING A DEMO
-### *Illustrations vs. Demos (The TelSell Rule)*
+### *Illustrations vs. Demos (The Tell-Show-Tell Rule)*
 
 During a demo, prospects will frequently ask technical or hypothetical questions:
 * *"Can we export this floorplan data into an Excel spreadsheet or PowerBI?"*
@@ -134,7 +134,7 @@ Peter Cohan introduces the distinction between an **Illustration** and a **Demo*
 | **Illustration** | Answers a specific question quickly without derailing the meeting. | 30 to 60 seconds | **Tell $\rightarrow$ Show $\rightarrow$ Check.** Show one screen, verify satisfaction, and return immediately to the primary value arc. |
 | **Demo** | Proves a core business use-case tied to primary discovery pain. | 5 to 10 minutes | **Payoff first $\rightarrow$ Fewest clicks workflow $\rightarrow$ Delta quantification.** |
 
-#### The 3-Step "TelSell" Illustration Technique:
+#### The 3-Step "Tell-Show-Tell" Illustration Technique:
 1. **Step 1: Tell (Direct Answer):** *"Yes, absolutely. The system has automated desk release rules."*
 2. **Step 2: Show (1-Screen Proof):** Switch to the notification screen: *"If an employee doesn't check in within 30 minutes of their reservation, the desk automatically turns green on the map and releases to the neighborhood."*
 3. **Step 3: Check (Regain Control):** *"Does that give your team the automated ghost-booking protection you were looking for?"*  
@@ -199,4 +199,4 @@ You answered the question, proved the capability, and returned to your value nar
 * **Task:** Write out your verbatim 90-second script for the first screen you will show a Chief Financial Officer. If that screen does not contain a dollar sign, a percentage, or an occupancy metric, rewrite it until it does.
 
 ---
-*End of Volume 3. Proceed to Volume 4: Matt Dixon & Ted McKenna's The JOLT Effect.*
+*End of Reference Manual 3. Proceed to Reference Manual 4: Matt Dixon & Ted McKenna's The JOLT Effect.*

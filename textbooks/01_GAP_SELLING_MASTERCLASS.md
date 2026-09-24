@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 1: KEENAN'S GAP SELLING MASTERCLASS
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 1: KEENAN'S GAP SELLING MASTERCLASS
 ### *The Anatomy of Precision Discovery & Problem Dissection*
 
 ---
@@ -228,4 +228,4 @@ If you answer with a flat *"Yes,"* you lose your diagnostic posture. You become 
 * **Exercise:** Calculate the annual cost of that problem, and script a 45-second talk-track translating that 5-hour task into an operational liability that a CFO would care about.
 
 ---
-*End of Volume 1. Proceed to Volume 2: John McMahon's MEDDPICC Operating System.*
+*End of Reference Manual 1. Proceed to Reference Manual 2: John McMahon's MEDDPICC Operating System.*

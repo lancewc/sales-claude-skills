@@ -1056,7 +1056,42 @@ function renderClassroomSyllabus() {
           </button>
       </div>
     </div>
-    
+
+    <!-- FOUNDATIONAL REFERENCE MANUAL DRAWER -->
+    <div class="mb-5 p-3 rounded-lg bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)]">
+      <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[#C6613F] mb-1 flex items-center justify-between">
+        <span class="flex items-center gap-1.5"><i data-lucide="library" class="w-3.5 h-3.5"></i> Reference Manuals</span>
+        <span class="text-[9px] bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413] font-mono font-bold">6 MANUALS</span>
+      </div>
+      <p class="text-[11px] text-[#87867F] mb-2 leading-tight">Broader anthology-style manuals — each bundles a full framework (~3 modules) into one deep-dive read:</p>
+      <div class="space-y-1 max-h-[220px] overflow-y-auto pr-1">
+        <button onclick="loadTextbook('01_GAP_SELLING_MASTERCLASS.md', 'Manual 1: Keenan\'s GAP Selling Masterclass')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 1: GAP Selling Masterclass</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('02_MEDDPICC_OPERATING_SYSTEM.md', 'Manual 2: MEDDPICC Operating System')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 2: MEDDPICC Operating System</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('03_GREAT_DEMO_CHOREOGRAPHY.md', 'Manual 3: Great Demo! Choreography')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 3: Great Demo! Choreography</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('04_THE_JOLT_EFFECT_CLOSING_MANUAL.md', 'Manual 4: The JOLT Effect Closing Manual')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 4: The JOLT Effect Closing Manual</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('05_COMMERCIAL_REAL_ESTATE_AND_SAAS_FINANCE.md', 'Manual 5: Commercial Real Estate & SaaS Finance')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 5: Commercial Real Estate & SaaS Finance</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('06_ENTERPRISE_MULTITHREADING_AND_MAPS.md', 'Manual 6: Enterprise Multi-Threading & MAPs')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Manual 6: Enterprise Multi-Threading & MAPs</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+      </div>
+    </div>
+
     <div class="text-[10px] font-mono font-bold uppercase tracking-wider text-[#87867F] mb-2 px-1">
       Modular Lessons (18 Modules)
     </div>

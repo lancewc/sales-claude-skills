@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 2: JOHN MCMAHON'S MEDDPICC OPERATING SYSTEM
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 2: JOHN MCMAHON'S MEDDPICC OPERATING SYSTEM
 ### *Enterprise Qualification, Champion Testing & Deal Control*
 
 ---
@@ -8,7 +8,7 @@
 
 In the 1990s, **Parametric Technology Corporation (PTC)** grew from a startup into an enterprise software behemoth, posting **40 consecutive quarters of record revenue growth**. 
 
-The engine behind this legendary execution was engineered by **John McMahon**, **Dick Dunkel**, and **Jack Falvey**. McMahon later scaled this exact methodology across the most dominant enterprise software companies in Silicon Valley history: **BladeLogic, BMC, Snowflake, MongoDB, and Datadog**.
+The engine behind this legendary execution was engineered by **John McMahon**, **Dick Dunkel**, and **Jack Napoli**. McMahon went on to operate as a 5-time public-company CRO — including PTC, Ariba, BladeLogic, and BMC Software (BladeLogic sold to BMC for $872M) — and later joined the boards of Snowflake and MongoDB, carrying the same qualification discipline into those companies' go-to-market leadership.
 
 ```
                            THE MEDDPICC FORECAST ENGINE
@@ -248,4 +248,4 @@ Use this empirical 16-point scorecard to evaluate any active enterprise deal:
 * **Under 10 Points:** **Unqualified Risk.** Do not forecast. Single-threaded and highly vulnerable to ghosting.
 
 ---
-*End of Volume 2. Proceed to Volume 3: Peter Cohan's Great Demo! Value Choreography.*
+*End of Reference Manual 2. Proceed to Reference Manual 3: Peter Cohan's Great Demo! Value Choreography.*

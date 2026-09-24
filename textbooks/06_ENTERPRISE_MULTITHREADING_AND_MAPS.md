@@ -1,5 +1,5 @@
-# THE SALES MBA TEXTBOOK SERIES
-## VOLUME 6: ENTERPRISE MULTI-THREADING & MUTUAL ACTION PLAN (MAP) CHOREOGRAPHY
+# THE SALES MBA REFERENCE MANUAL SERIES
+## REFERENCE MANUAL 6: ENTERPRISE MULTI-THREADING & MUTUAL ACTION PLAN (MAP) CHOREOGRAPHY
 ### Advanced Account Navigation, Stakeholder Triangulation, and Deal Control for Enterprise AEs
 
 ---
@@ -161,4 +161,4 @@ The Paper Process encompasses every administrative step required to turn a verba
   > *"A pilot is definitely something we can structure, Mark. But in our experience, teams run a successful 30-day pilot only to have everything grind to a halt because InfoSec takes 4 weeks to review SOC2 compliance. While our teams configure the pilot environment, let's connect our security architects with your CISO team this week. That way, the moment the pilot proves value, your legal and security gates are already cleared."*
 
 ---
-*End of Volume 6. The complete 6-Volume Sales MBA Textbook Series is now finalized.*
+*End of Reference Manual 6. The complete 6-Manual Sales MBA Reference Manual Series is now finalized.*

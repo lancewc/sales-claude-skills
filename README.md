@@ -111,6 +111,21 @@ Each module in the curriculum includes its own dedicated, multi-chapter textbook
 | **17** | [`BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md`](textbooks/BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md) | The JOLT Protocol: Neutralizing Buyer Risk | Indecision De-escalation |
 | **18** | [`BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md`](textbooks/BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md) | Concession Trading & Closing Discipline: Margin Defense | Give-to-Get Commercial Negotiation |
 
+---
+
+## 📚 The 6 Foundational Framework Reference Manuals
+
+Before the per-module series above existed, these 6 broader anthology-style manuals anchored the curriculum — each one bundles a full framework (roughly 3 modules' worth of material) into a single deep-dive read. They're still live and still the most thorough single-document treatment of each framework:
+
+| Manual | File | Covers | Core Methodology |
+| :--- | :--- | :--- | :--- |
+| **1** | [`01_GAP_SELLING_MASTERCLASS.md`](textbooks/01_GAP_SELLING_MASTERCLASS.md) | Modules 2.1-2.3: Discovery, root-cause laddering, feature reframing | Keenan's GAP Selling |
+| **2** | [`02_MEDDPICC_OPERATING_SYSTEM.md`](textbooks/02_MEDDPICC_OPERATING_SYSTEM.md) | Modules 3.1-3.3: Champion testing, Economic Buyer access, Paper Process | John McMahon's MEDDPICC |
+| **3** | [`03_GREAT_DEMO_CHOREOGRAPHY.md`](textbooks/03_GREAT_DEMO_CHOREOGRAPHY.md) | Modules 4.1-4.3: Inverted Pyramid, fewest clicks, Delta storytelling | Peter Cohan's Great Demo! |
+| **4** | [`04_THE_JOLT_EFFECT_CLOSING_MANUAL.md`](textbooks/04_THE_JOLT_EFFECT_CLOSING_MANUAL.md) | Modules 6.1-6.3: FOMU, the JOLT protocol, concession trading | Dixon & McKenna's JOLT Effect |
+| **5** | [`05_COMMERCIAL_REAL_ESTATE_AND_SAAS_FINANCE.md`](textbooks/05_COMMERCIAL_REAL_ESTATE_AND_SAAS_FINANCE.md) | Modules 1.1-1.3: OpEx/CapEx, SaaS unit economics, Cost of Inaction | FASB ASC 842 & CRE Accounting |
+| **6** | [`06_ENTERPRISE_MULTITHREADING_AND_MAPS.md`](textbooks/06_ENTERPRISE_MULTITHREADING_AND_MAPS.md) | Modules 5.1-5.3: Buyer personas, value triangulation, Mutual Action Plans | Enterprise Multi-Threading |
+
 ### Run Locally in 5 Seconds:
 ```bash
 git clone https://github.com/lancewc/sales-claude-skills.git
