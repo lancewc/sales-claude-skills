@@ -78,11 +78,38 @@ This repository includes a standalone web app styled to **Anthropic's exact comp
 
 ### Included Web Instruments:
 - 🎓 **18-Module Interactive Classroom** with real-time markdown note-taking.
-- 📚 **6 Unabridged Reference Textbooks** readable and downloadable directly in-browser.
+- 📚 **18 Unabridged Masterclass Textbooks** (.md) + 6 Foundational Framework Reference Manuals.
 - ⚖️ **16-Point Interactive MEDDPICC Deal Auditor** with live triage prescriptions.
 - 📐 **SaaS & Space Consolidation ROI Engine** computing payback in days and exporting 1-page CFO memos.
 - ⚡ **JOLT Customer Indecision Resolver** with verbatim objection scripts.
 - 📜 **Capstone Board Examination** awarding an authenticated Oxford/Anthropic-styled Enterprise AE Credential.
+
+---
+
+## 📚 The 18 Unabridged Masterclass Textbooks
+
+Each module in the curriculum includes its own dedicated, multi-chapter textbook in pure Markdown (`textbooks/BOOK_*.md`):
+
+| Vol | Textbook File | Module Focus | Core Methodology |
+| :--- | :--- | :--- | :--- |
+| **01** | [`BOOK_01_OPEX_VS_CAPEX_AND_EBITDA.md`](textbooks/BOOK_01_OPEX_VS_CAPEX_AND_EBITDA.md) | OpEx vs. CapEx, EBITDA & Corporate Cash Flow | Corporate Finance & FASB Accounting |
+| **02** | [`BOOK_02_THE_SAAS_FINANCIAL_ENGINE.md`](textbooks/BOOK_02_THE_SAAS_FINANCIAL_ENGINE.md) | The SaaS Financial Engine: CAC, LTV, NRR & Gross Margin | SaaS Unit Economics & Rule of 40 |
+| **03** | [`BOOK_03_CALCULATING_COST_OF_INACTION.md`](textbooks/BOOK_03_CALCULATING_COST_OF_INACTION.md) | Cost of Inaction (COI): The CFO Justification Model | Loss Aversion & Urgency Math |
+| **04** | [`BOOK_04_THE_5_DIMENSIONS_OF_CURRENT_STATE.md`](textbooks/BOOK_04_THE_5_DIMENSIONS_OF_CURRENT_STATE.md) | The 5 Dimensions of the Current State | Keenan's GAP Selling Discovery |
+| **05** | [`BOOK_05_THE_RULE_OF_3_WHYS_ROOT_CAUSE.md`](textbooks/BOOK_05_THE_RULE_OF_3_WHYS_ROOT_CAUSE.md) | The Rule of 3 Whys: Diagnostic Laddering | Root-Cause Analysis |
+| **06** | [`BOOK_06_REFRAMING_FEATURE_REQUESTS.md`](textbooks/BOOK_06_REFRAMING_FEATURE_REQUESTS.md) | Reframing Feature Requests into Quantifiable Outcomes | De-Commoditization & Pricing Defense |
+| **07** | [`BOOK_07_CHAMPION_ACID_TESTS_PROTOCOL.md`](textbooks/BOOK_07_CHAMPION_ACID_TESTS_PROTOCOL.md) | The Champion Protocol: Coach vs. Champion & Acid Tests | John McMahon's MEDDPICC |
+| **08** | [`BOOK_08_ECONOMIC_BUYER_ALIGNMENT.md`](textbooks/BOOK_08_ECONOMIC_BUYER_ALIGNMENT.md) | Finding & Aligning with the Economic Buyer (EB) | Discretionary Budget Access |
+| **09** | [`BOOK_09_DECISION_CRITERIA_PAPER_PROCESS.md`](textbooks/BOOK_09_DECISION_CRITERIA_PAPER_PROCESS.md) | Trap-Setting Decision Criteria & Controlling Paper Process | Snowflake Criteria & Legal Navigation |
+| **10** | [`BOOK_10_INVERTED_PYRAMID_DEMO.md`](textbooks/BOOK_10_INVERTED_PYRAMID_DEMO.md) | The Inverted Pyramid: Do the Last Thing First | Peter Cohan's Great Demo! |
+| **11** | [`BOOK_11_FEWEST_CLICKS_TO_VALUE.md`](textbooks/BOOK_11_FEWEST_CLICKS_TO_VALUE.md) | The Fewest Clicks to Value: Eliminating Cognitive Friction | Cognitive Load Reduction |
+| **12** | [`BOOK_12_DELTA_STORYTELLING_PAIN.md`](textbooks/BOOK_12_DELTA_STORYTELLING_PAIN.md) | Delta Storytelling & Pain Architecture in Live Demos | Contrast Psychology & Narrative Arcs |
+| **13** | [`BOOK_13_MAPPING_4_BUYER_PERSONAS.md`](textbooks/BOOK_13_MAPPING_4_BUYER_PERSONAS.md) | Mapping the 4 Enterprise Buyer Personas | Multi-Threading & Account Navigation |
+| **14** | [`BOOK_14_TRIANGULATING_ENTERPRISE_VALUE.md`](textbooks/BOOK_14_TRIANGULATING_ENTERPRISE_VALUE.md) | Triangulating Value: Facilities, HR, IT, and Finance | Multi-Department Consensus |
+| **15** | [`BOOK_15_MUTUAL_ACTION_PLAN_MAP.md`](textbooks/BOOK_15_MUTUAL_ACTION_PLAN_MAP.md) | The Mutual Action Plan (MAP): Mutual Accountability | Enterprise Closing as Project Mgmt |
+| **16** | [`BOOK_16_FOMU_VS_FOMO_BEHAVIORAL_ECONOMICS.md`](textbooks/BOOK_16_FOMU_VS_FOMO_BEHAVIORAL_ECONOMICS.md) | FOMU vs. FOMO: The Behavioral Economics of Deal Stall | Dixon & McKenna's JOLT Effect |
+| **17** | [`BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md`](textbooks/BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md) | The JOLT Protocol: Neutralizing Buyer Risk | Indecision De-escalation |
+| **18** | [`BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md`](textbooks/BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md) | Concession Trading & Closing Discipline: Margin Defense | Give-to-Get Commercial Negotiation |
 
 ### Run Locally in 5 Seconds:
 ```bash

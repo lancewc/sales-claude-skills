@@ -1,3 +1,78 @@
+const moduleBookMap = {
+  "1.1": {
+    "file": "BOOK_01_OPEX_VS_CAPEX_AND_EBITDA.md",
+    "title": "Vol 1: OpEx vs. CapEx, EBITDA & Cash Flow"
+  },
+  "1.2": {
+    "file": "BOOK_02_THE_SAAS_FINANCIAL_ENGINE.md",
+    "title": "Vol 2: The SaaS Financial Engine: CAC, LTV & NRR"
+  },
+  "1.3": {
+    "file": "BOOK_03_CALCULATING_COST_OF_INACTION.md",
+    "title": "Vol 3: Cost of Inaction (COI): CFO Urgency"
+  },
+  "2.1": {
+    "file": "BOOK_04_THE_5_DIMENSIONS_OF_CURRENT_STATE.md",
+    "title": "Vol 4: The 5 Dimensions of Current State (GAP)"
+  },
+  "2.2": {
+    "file": "BOOK_05_THE_RULE_OF_3_WHYS_ROOT_CAUSE.md",
+    "title": "Vol 5: The Rule of 3 Whys: Diagnostic Laddering"
+  },
+  "2.3": {
+    "file": "BOOK_06_REFRAMING_FEATURE_REQUESTS.md",
+    "title": "Vol 6: Reframing Feature Requests into Outcomes"
+  },
+  "3.1": {
+    "file": "BOOK_07_CHAMPION_ACID_TESTS_PROTOCOL.md",
+    "title": "Vol 7: The Champion Protocol: Coach vs. Champion"
+  },
+  "3.2": {
+    "file": "BOOK_08_ECONOMIC_BUYER_ALIGNMENT.md",
+    "title": "Vol 8: Aligning with the Economic Buyer (MEDDPICC)"
+  },
+  "3.3": {
+    "file": "BOOK_09_DECISION_CRITERIA_PAPER_PROCESS.md",
+    "title": "Vol 9: Trap Criteria & Paper Process Control"
+  },
+  "4.1": {
+    "file": "BOOK_10_INVERTED_PYRAMID_DEMO.md",
+    "title": "Vol 10: The Inverted Pyramid: Last Thing First"
+  },
+  "4.2": {
+    "file": "BOOK_11_FEWEST_CLICKS_TO_VALUE.md",
+    "title": "Vol 11: Fewest Clicks to Value: Less Friction"
+  },
+  "4.3": {
+    "file": "BOOK_12_DELTA_STORYTELLING_PAIN.md",
+    "title": "Vol 12: Delta Storytelling & Pain Architecture"
+  },
+  "5.1": {
+    "file": "BOOK_13_MAPPING_4_BUYER_PERSONAS.md",
+    "title": "Vol 13: Mapping the 4 Enterprise Buyer Personas"
+  },
+  "5.2": {
+    "file": "BOOK_14_TRIANGULATING_ENTERPRISE_VALUE.md",
+    "title": "Vol 14: Triangulating Enterprise Stakeholder Value"
+  },
+  "5.3": {
+    "file": "BOOK_15_MUTUAL_ACTION_PLAN_MAP.md",
+    "title": "Vol 15: The Mutual Action Plan (MAP) Execution"
+  },
+  "6.1": {
+    "file": "BOOK_16_FOMU_VS_FOMO_BEHAVIORAL_ECONOMICS.md",
+    "title": "Vol 16: FOMU vs. FOMO: Behavioral Economics of Stall"
+  },
+  "6.2": {
+    "file": "BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md",
+    "title": "Vol 17: The JOLT Protocol: Neutralizing Buyer Risk"
+  },
+  "6.3": {
+    "file": "BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md",
+    "title": "Vol 18: Concession Trading & Closing Discipline"
+  }
+};
+
 // THE SALES MBA - SELF-STUDY CLASSROOM & STUDENT PORTAL ENGINE
 
 const classroomLessons = [
@@ -901,35 +976,84 @@ function renderClassroomSyllabus() {
   let html = `
     <!-- UNABRIDGED MASTERCLASS TEXTBOOK DRAWER -->
     <div class="mb-5 p-3 rounded-lg bg-[#FAF9F5] border border-[rgba(20,20,19,0.1)]">
-      <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[#C6613F] mb-2 flex items-center justify-between">
-        <span class="flex items-center gap-1.5"><i data-lucide="book" class="w-3.5 h-3.5"></i> Masterclass Textbooks</span>
-        <span class="text-[9px] bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413] font-mono font-bold">6 VOLUMES</span>
+      <div class="text-[11px] font-mono font-bold uppercase tracking-wider text-[#C6613F] mb-1 flex items-center justify-between">
+        <span class="flex items-center gap-1.5"><i data-lucide="book" class="w-3.5 h-3.5"></i> Unabridged Textbooks</span>
+        <span class="text-[9px] bg-[#E3DACC] px-1.5 py-0.5 rounded text-[#141413] font-mono font-bold">18 VOLUMES</span>
       </div>
-      <div class="space-y-1">
-        <button onclick="loadTextbook('01_GAP_SELLING_MASTERCLASS.md', 'Volume 1: Keenan\\'s GAP Selling Masterclass')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 1: GAP Discovery</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
-        <button onclick="loadTextbook('02_MEDDPICC_OPERATING_SYSTEM.md', 'Volume 2: John McMahon\\'s MEDDPICC Operating System')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 2: MEDDPICC Mastery</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
-        <button onclick="loadTextbook('03_GREAT_DEMO_CHOREOGRAPHY.md', 'Volume 3: Peter Cohan\\'s Great Demo! Choreography')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 3: Great Demo! Architecture</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
-        <button onclick="loadTextbook('04_THE_JOLT_EFFECT_CLOSING_MANUAL.md', 'Volume 4: The JOLT Effect Closing Manual')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 4: The JOLT Effect</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
-        <button onclick="loadTextbook('05_COMMERCIAL_REAL_ESTATE_AND_SAAS_FINANCE.md', 'Volume 5: CRE Economics & SaaS Finance')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 5: CRE & SaaS Finance</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
-        <button onclick="loadTextbook('06_ENTERPRISE_MULTITHREADING_AND_MAPS.md', 'Volume 6: Enterprise Multi-Threading & Mutual Action Plans (MAPs)')" class="w-full text-left p-2 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.1)] text-xs text-[#141413] transition-all flex items-center justify-between font-sans">
-          <span class="truncate font-medium">Vol 6: Multi-Threading & MAPs</span>
-          <span class="text-[10px] font-mono text-[#87867F]">Full Book</span>
-        </button>
+      <p class="text-[11px] text-[#87867F] mb-2 leading-tight">Every single module has its own complete, unabridged masterclass textbook (.md):</p>
+      <div class="space-y-1 max-h-[220px] overflow-y-auto pr-1">
+        <button onclick="loadTextbook('BOOK_01_OPEX_VS_CAPEX_AND_EBITDA.md', 'Vol 1: OpEx vs. CapEx, EBITDA & Cash Flow')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 1: OpEx vs. CapEx, EBITDA & Cash Flow</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_02_THE_SAAS_FINANCIAL_ENGINE.md', 'Vol 2: The SaaS Financial Engine: CAC, LTV & NRR')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 2: The SaaS Financial Engine: CAC, LTV & NRR</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_03_CALCULATING_COST_OF_INACTION.md', 'Vol 3: Cost of Inaction (COI): CFO Urgency')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 3: Cost of Inaction (COI): CFO Urgency</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_04_THE_5_DIMENSIONS_OF_CURRENT_STATE.md', 'Vol 4: The 5 Dimensions of Current State (GAP)')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 4: The 5 Dimensions of Current State (GAP)</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_05_THE_RULE_OF_3_WHYS_ROOT_CAUSE.md', 'Vol 5: The Rule of 3 Whys: Diagnostic Laddering')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 5: The Rule of 3 Whys: Diagnostic Laddering</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_06_REFRAMING_FEATURE_REQUESTS.md', 'Vol 6: Reframing Feature Requests into Outcomes')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 6: Reframing Feature Requests into Outcomes</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_07_CHAMPION_ACID_TESTS_PROTOCOL.md', 'Vol 7: The Champion Protocol: Coach vs. Champion')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 7: The Champion Protocol: Coach vs. Champion</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_08_ECONOMIC_BUYER_ALIGNMENT.md', 'Vol 8: Aligning with the Economic Buyer (MEDDPICC)')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 8: Aligning with the Economic Buyer (MEDDPICC)</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_09_DECISION_CRITERIA_PAPER_PROCESS.md', 'Vol 9: Trap Criteria & Paper Process Control')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 9: Trap Criteria & Paper Process Control</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_10_INVERTED_PYRAMID_DEMO.md', 'Vol 10: The Inverted Pyramid: Last Thing First')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 10: The Inverted Pyramid: Last Thing First</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_11_FEWEST_CLICKS_TO_VALUE.md', 'Vol 11: Fewest Clicks to Value: Less Friction')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 11: Fewest Clicks to Value: Less Friction</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_12_DELTA_STORYTELLING_PAIN.md', 'Vol 12: Delta Storytelling & Pain Architecture')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 12: Delta Storytelling & Pain Architecture</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_13_MAPPING_4_BUYER_PERSONAS.md', 'Vol 13: Mapping the 4 Enterprise Buyer Personas')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 13: Mapping the 4 Enterprise Buyer Personas</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_14_TRIANGULATING_ENTERPRISE_VALUE.md', 'Vol 14: Triangulating Enterprise Stakeholder Value')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 14: Triangulating Enterprise Stakeholder Value</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_15_MUTUAL_ACTION_PLAN_MAP.md', 'Vol 15: The Mutual Action Plan (MAP) Execution')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 15: The Mutual Action Plan (MAP) Execution</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_16_FOMU_VS_FOMO_BEHAVIORAL_ECONOMICS.md', 'Vol 16: FOMU vs. FOMO: Behavioral Economics of Stall')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 16: FOMU vs. FOMO: Behavioral Economics of Stall</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_17_JOLT_PROTOCOL_DEALING_WITH_INDECISION.md', 'Vol 17: The JOLT Protocol: Neutralizing Buyer Risk')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 17: The JOLT Protocol: Neutralizing Buyer Risk</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
+        <button onclick="loadTextbook('BOOK_18_CONCESSION_TRADING_CLOSING_DISCIPLINE.md', 'Vol 18: Concession Trading & Closing Discipline')" class="w-full text-left p-1.5 rounded bg-[#F0EEE6] hover:bg-[#E3DACC] border border-[rgba(20,20,19,0.08)] text-[11px] text-[#141413] transition-all flex items-center justify-between font-sans">
+            <span class="truncate font-medium">Vol 18: Concession Trading & Closing Discipline</span>
+            <span class="text-[9px] font-mono text-[#C6613F] shrink-0 ml-1">.md</span>
+          </button>
       </div>
     </div>
     
@@ -1046,6 +1170,11 @@ function loadLesson(lessonId) {
           </span>
         </div>
         <div class="flex items-center gap-2">
+          ${moduleBookMap[lesson.id] ? `
+            <button onclick="loadTextbook('${moduleBookMap[lesson.id].file}', '${moduleBookMap[lesson.id].title.replace(/'/g, "\\'")}')" class="btn btn-clay text-xs flex items-center gap-1.5 shadow-sm" title="Read the complete unabridged masterclass textbook for this module">
+              <i data-lucide="book-open" class="w-3.5 h-3.5"></i> Read Full Book (.md)
+            </button>
+          ` : ''}
           <button onclick="exportCurrentLessonAsSkill('${lesson.id}')" class="btn btn-secondary text-xs flex items-center gap-1.5" title="Export this module formatted for Claude Project instructions">
             <i data-lucide="sparkles" class="w-3.5 h-3.5 text-[#C6613F]"></i> Export to Claude Skill
           </button>
