@@ -1088,7 +1088,7 @@ function loadLesson(lessonId) {
       <div id="lesson-quiz-feedback" class="mt-4 hidden p-4 rounded text-xs leading-relaxed font-sans"></div>
     </div>
 
-    <!-- APPLIED EXECUTIVE REFLECTION & LANCE'S NOTES -->
+    <!-- APPLIED EXECUTIVE REFLECTION & YOUR NOTES -->
     <div class="p-6 rounded-lg bg-[#F0EEE6] border border-[rgba(20,20,19,0.1)] my-6">
       <div class="flex items-center justify-between mb-2">
         <span class="meta-label text-xs font-bold uppercase text-[#15803D] flex items-center gap-1.5">

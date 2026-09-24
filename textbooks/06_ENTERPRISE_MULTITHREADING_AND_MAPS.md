@@ -63,7 +63,7 @@ Every enterprise purchase involves four distinct functional roles. Elite AEs nev
 ---
 
 ## CHAPTER 2: STAKEHOLDER TRIANGULATION IN WORKPLACE SAAS
-When selling Maptician or enterprise workplace software, you must triangulate value across four conflicting corporate departments:
+When selling [Your Product] or enterprise workplace software, you must triangulate value across four conflicting corporate departments:
 
 | Department | Primary Metric / Concern | The Value Proposition Pitch |
 | :--- | :--- | :--- |
@@ -138,7 +138,7 @@ The Paper Process encompasses every administrative step required to turn a verba
 4. **Who handles InfoSec and DPA?** If the customer's legal team insists on redlining the Data Processing Agreement (DPA) regarding employee names and emails, this can freeze a deal for 30 days unless pre-empted.
 
 ### The AE Paper Process Discovery Script:
-> *"Sarah, congratulations on selecting Maptician. To make sure we don't encounter surprises that delay your November 1st launch, let's walk through the mechanics of how contracts are executed at your company:*
+> *"Sarah, congratulations on selecting [Your Product]. To make sure we don't encounter surprises that delay your November 1st launch, let's walk through the mechanics of how contracts are executed at your company:*
 > 1. *Who is the authorized signatory for software agreements over \$30k?*
 > 2. *Does your legal team use standard vendor agreements, or will you require us to sign on your paper?*
 > 3. *Does your procurement team require vendor registration in Coupa or Ariba?*
